@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/create_thread.dir/create_thread.cpp.o  -o create_thread 

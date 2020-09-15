@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/cond_variables.dir/cond_variables.cpp.o  -o cond_variables 

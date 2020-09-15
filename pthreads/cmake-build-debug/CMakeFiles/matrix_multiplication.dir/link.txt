@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.o  -o matrix_multiplication 

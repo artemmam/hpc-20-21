@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/array_sum.dir/array_sum.cpp.o  -o array_sum 

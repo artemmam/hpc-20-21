@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pthreads.dir/main.cpp.o CMakeFiles/pthreads.dir/create_thread.cpp.o  -o pthreads 

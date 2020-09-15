@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/mutex_example_2.dir/mutex_example_2.cpp.o  -o mutex_example_2 

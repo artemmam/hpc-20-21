@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/create_array_of_threads_mutex.dir/create_array_of_threads_mutex.cpp.o  -o create_array_of_threads_mutex 

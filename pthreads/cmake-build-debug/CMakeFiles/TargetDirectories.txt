@@ -1,0 +1,11 @@
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/mutex_example_2.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/rw_lock.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/cond_variables.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/create_thread.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/integral.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/create_array_of_threads.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/array_sum.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/mutex_example.dir
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/cmake-build-debug/CMakeFiles/matrix_multiplication.dir

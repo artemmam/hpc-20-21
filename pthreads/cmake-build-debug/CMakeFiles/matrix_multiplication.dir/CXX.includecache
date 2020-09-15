@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ARTEM/CLionProjects/pthreads/matrix_multiplication.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+pthread.h
+-
+
