@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -pthread -g   CMakeFiles/array_of_threads.dir/array_of_threads.cpp.o  -o array_of_threads 

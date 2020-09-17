@@ -1,0 +1,13 @@
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/atomic_flag.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/atomic.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/bank_transfer.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/recursive_mutex.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/bank_loop.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/bank.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/bank_recursive.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/array_of_threads.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/shared_mutex.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/arguments.dir
+/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/CMakeFiles/hello.dir

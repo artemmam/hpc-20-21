@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c__threads"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atomic_flag">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/atomic_flag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 atomic_flag"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atomic_flag/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/atomic_flag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 atomic_flag/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atomic">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/atomic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 atomic"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atomic/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/atomic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 atomic/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank_transfer">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank_transfer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank_transfer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank_transfer/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank_transfer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank_transfer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recursive_mutex">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/recursive_mutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursive_mutex"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recursive_mutex/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/recursive_mutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 recursive_mutex/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank_loop">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank_loop"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank_loop/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank_loop/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank_recursive">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank_recursive"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bank_recursive/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/bank_recursive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 bank_recursive/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array_of_threads">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/array_of_threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 array_of_threads"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array_of_threads/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/array_of_threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 array_of_threads/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_mutex">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/shared_mutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 shared_mutex"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_mutex/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/shared_mutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 shared_mutex/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arguments">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/arguments" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 arguments"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arguments/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/arguments" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 arguments/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello/fast">
+				<Option output="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/arguments.cpp">
+			<Option target="arguments"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/array_of_threads.cpp">
+			<Option target="array_of_threads"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/atomic.cpp">
+			<Option target="atomic"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/atomic_flag.cpp">
+			<Option target="atomic_flag"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/bank_example/bank.cpp">
+			<Option target="bank"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/bank_example/bank_loop.cpp">
+			<Option target="bank_loop"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/bank_example/bank_recursive.cpp">
+			<Option target="bank_recursive"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/bank_example/bank_transfer.cpp">
+			<Option target="bank_transfer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/hello.cpp">
+			<Option target="hello"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/recursive_mutex.cpp">
+			<Option target="recursive_mutex"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/shared_mutex.cpp">
+			<Option target="shared_mutex"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ARTEM/CLionProjects/c++threads/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

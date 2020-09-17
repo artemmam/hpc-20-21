@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -pthread -g   CMakeFiles/shared_mutex.dir/shared_mutex.cpp.o  -o shared_mutex 

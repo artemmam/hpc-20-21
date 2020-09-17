@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+project(c__threads)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread")
+
+add_executable(hello hello.cpp )
+add_executable(arguments arguments.cpp )
+add_executable(array_of_threads array_of_threads.cpp)
+add_executable(bank bank_example/bank.cpp )
+add_executable(bank_recursive bank_example/bank_recursive.cpp)
+add_executable(bank_loop bank_example/bank_loop.cpp)
+add_executable(shared_mutex shared_mutex.cpp)
+add_executable(recursive_mutex recursive_mutex.cpp)
+add_executable(bank_transfer bank_example/bank_transfer.cpp)
+add_executable(atomic atomic.cpp)
+add_executable(atomic_flag atomic_flag.cpp)

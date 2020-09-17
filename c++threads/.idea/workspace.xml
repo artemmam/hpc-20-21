@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="c__threads" targetName="bank_loop" />
+      <config projectName="c__threads" targetName="bank_transfer" />
+      <config projectName="c__threads" targetName="array_of_threads" />
+      <config projectName="c__threads" targetName="recursive_mutex" />
+      <config projectName="c__threads" targetName="shared_mutex" />
+      <config projectName="c__threads" targetName="arguments" />
+      <config projectName="c__threads" targetName="hello" />
+      <config projectName="c__threads" targetName="bank_recursive" />
+      <config projectName="c__threads" targetName="atomic_flag" />
+      <config projectName="c__threads" targetName="atomic" />
+      <config projectName="c__threads" targetName="bank" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45ce37aa-32f7-42c4-86db-435ef663a1e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gzpKohlbsm7UFwcZwrAK3KxiP7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pthreads" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ARTEM\CLionProjects\c++threads\bank_example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ARTEM\CLionProjects\c++threads" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.bank_loop">
+    <configuration name="arguments" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="arguments">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array_of_threads" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="array_of_threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="array_of_threads">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="atomic" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="atomic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="atomic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="atomic_flag" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="atomic_flag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="atomic_flag">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bank" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="bank" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="bank">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bank_loop" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="bank_loop" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="bank_loop">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bank_recursive" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="bank_recursive" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="bank_recursive">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bank_transfer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="bank_transfer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="bank_transfer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="hello">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="recursive_mutex" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="recursive_mutex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="recursive_mutex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shared_mutex" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c__threads" TARGET_NAME="shared_mutex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c__threads" RUN_TARGET_NAME="shared_mutex">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.arguments" />
+      <item itemvalue="CMake Application.array_of_threads" />
+      <item itemvalue="CMake Application.atomic" />
+      <item itemvalue="CMake Application.atomic_flag" />
+      <item itemvalue="CMake Application.bank" />
+      <item itemvalue="CMake Application.bank_loop" />
+      <item itemvalue="CMake Application.bank_recursive" />
+      <item itemvalue="CMake Application.bank_transfer" />
+      <item itemvalue="CMake Application.hello" />
+      <item itemvalue="CMake Application.recursive_mutex" />
+      <item itemvalue="CMake Application.shared_mutex" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45ce37aa-32f7-42c4-86db-435ef663a1e2" name="Default Changelist" comment="" />
+      <created>1599127213460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599127213460</updated>
+      <workItem from="1599127215115" duration="46000" />
+      <workItem from="1599127290083" duration="2837000" />
+      <workItem from="1599744620257" duration="795000" />
+      <workItem from="1599815923950" duration="13000" />
+      <workItem from="1600085921206" duration="2029000" />
+      <workItem from="1600158993196" duration="4568000" />
+      <workItem from="1600243549970" duration="17235000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600273342207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600273342207" />
+    <state x="497" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600160671392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="497" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600160671392" />
+    <state width="440" height="466" key="DebuggerActiveHint" timestamp="1600277176797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="440" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1600277176797" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600163320595">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600163320595" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1600279579266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600279579266" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1600279579266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600279579266" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1600279579266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600279579266" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1600279579266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600279579266" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1600279579267">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600279579267" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1600279579267">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600279579267" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1600279579266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600279579266" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1600279579267">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600279579267" />
+  </component>
+</project>
