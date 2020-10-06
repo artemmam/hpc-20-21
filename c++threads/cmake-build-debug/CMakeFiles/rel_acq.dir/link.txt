@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/rel_acq.dir/sem_2/rel_acq.cpp.o  -o rel_acq 

@@ -37,11 +37,13 @@ private:
 };
 
 void transfer(int client_id, Account& from, Account& to, int amount) {
-    std::unique_lock<std::mutex> lock_from(from.getMutex());
+    std::lock(from.getMutex(), to.getMutex());
+    std::unique_lock<std::mutex> lock_from(from.getMutex(), std::adopt_lock);
+    std::unique_lock<std::mutex> lock_to(to.getMutex(), std::adopt_lock);
     if (from.withdraw(amount)) {
         std::printf("%d: withdraw %d OK\n", client_id, amount);
         fflush(stdout); // to see withdraw messages
-        std::unique_lock<std::mutex> lock_to(to.getMutex());
+
         to.deposit(amount);
         lock_to.unlock();
         lock_from.unlock();

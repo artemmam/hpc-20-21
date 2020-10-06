@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/async_sum.dir/sem_2/async_sum.cpp.o  -o async_sum 

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,43 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named atomic_flag
+# Target rules for targets named hp_ziganshin
 
 # Build rule for target.
-atomic_flag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atomic_flag
-.PHONY : atomic_flag
+hp_ziganshin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hp_ziganshin
+.PHONY : hp_ziganshin
 
 # fast build rule for target.
-atomic_flag/fast:
-	$(MAKE) -f CMakeFiles/atomic_flag.dir/build.make CMakeFiles/atomic_flag.dir/build
-.PHONY : atomic_flag/fast
-
-#=============================================================================
-# Target rules for targets named atomic
-
-# Build rule for target.
-atomic: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 atomic
-.PHONY : atomic
-
-# fast build rule for target.
-atomic/fast:
-	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/build
-.PHONY : atomic/fast
-
-#=============================================================================
-# Target rules for targets named bank_transfer
-
-# Build rule for target.
-bank_transfer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bank_transfer
-.PHONY : bank_transfer
-
-# fast build rule for target.
-bank_transfer/fast:
-	$(MAKE) -f CMakeFiles/bank_transfer.dir/build.make CMakeFiles/bank_transfer.dir/build
-.PHONY : bank_transfer/fast
+hp_ziganshin/fast:
+	$(MAKE) -f CMakeFiles/hp_ziganshin.dir/build.make CMakeFiles/hp_ziganshin.dir/build
+.PHONY : hp_ziganshin/fast
 
 #=============================================================================
 # Target rules for targets named recursive_mutex
@@ -163,17 +137,108 @@ recursive_mutex/fast:
 .PHONY : recursive_mutex/fast
 
 #=============================================================================
-# Target rules for targets named bank_loop
+# Target rules for targets named shared_future
 
 # Build rule for target.
-bank_loop: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bank_loop
-.PHONY : bank_loop
+shared_future: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shared_future
+.PHONY : shared_future
 
 # fast build rule for target.
-bank_loop/fast:
-	$(MAKE) -f CMakeFiles/bank_loop.dir/build.make CMakeFiles/bank_loop.dir/build
-.PHONY : bank_loop/fast
+shared_future/fast:
+	$(MAKE) -f CMakeFiles/shared_future.dir/build.make CMakeFiles/shared_future.dir/build
+.PHONY : shared_future/fast
+
+#=============================================================================
+# Target rules for targets named atomic_flag
+
+# Build rule for target.
+atomic_flag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atomic_flag
+.PHONY : atomic_flag
+
+# fast build rule for target.
+atomic_flag/fast:
+	$(MAKE) -f CMakeFiles/atomic_flag.dir/build.make CMakeFiles/atomic_flag.dir/build
+.PHONY : atomic_flag/fast
+
+#=============================================================================
+# Target rules for targets named relaxed_order
+
+# Build rule for target.
+relaxed_order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 relaxed_order
+.PHONY : relaxed_order
+
+# fast build rule for target.
+relaxed_order/fast:
+	$(MAKE) -f CMakeFiles/relaxed_order.dir/build.make CMakeFiles/relaxed_order.dir/build
+.PHONY : relaxed_order/fast
+
+#=============================================================================
+# Target rules for targets named atomic
+
+# Build rule for target.
+atomic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atomic
+.PHONY : atomic
+
+# fast build rule for target.
+atomic/fast:
+	$(MAKE) -f CMakeFiles/atomic.dir/build.make CMakeFiles/atomic.dir/build
+.PHONY : atomic/fast
+
+#=============================================================================
+# Target rules for targets named hp_faizulina
+
+# Build rule for target.
+hp_faizulina: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hp_faizulina
+.PHONY : hp_faizulina
+
+# fast build rule for target.
+hp_faizulina/fast:
+	$(MAKE) -f CMakeFiles/hp_faizulina.dir/build.make CMakeFiles/hp_faizulina.dir/build
+.PHONY : hp_faizulina/fast
+
+#=============================================================================
+# Target rules for targets named bank_transfer
+
+# Build rule for target.
+bank_transfer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bank_transfer
+.PHONY : bank_transfer
+
+# fast build rule for target.
+bank_transfer/fast:
+	$(MAKE) -f CMakeFiles/bank_transfer.dir/build.make CMakeFiles/bank_transfer.dir/build
+.PHONY : bank_transfer/fast
+
+#=============================================================================
+# Target rules for targets named miem1
+
+# Build rule for target.
+miem1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 miem1
+.PHONY : miem1
+
+# fast build rule for target.
+miem1/fast:
+	$(MAKE) -f CMakeFiles/miem1.dir/build.make CMakeFiles/miem1.dir/build
+.PHONY : miem1/fast
+
+#=============================================================================
+# Target rules for targets named atomic_bool
+
+# Build rule for target.
+atomic_bool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atomic_bool
+.PHONY : atomic_bool
+
+# fast build rule for target.
+atomic_bool/fast:
+	$(MAKE) -f CMakeFiles/atomic_bool.dir/build.make CMakeFiles/atomic_bool.dir/build
+.PHONY : atomic_bool/fast
 
 #=============================================================================
 # Target rules for targets named bank
@@ -202,6 +267,19 @@ bank_recursive/fast:
 .PHONY : bank_recursive/fast
 
 #=============================================================================
+# Target rules for targets named seq_order
+
+# Build rule for target.
+seq_order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 seq_order
+.PHONY : seq_order
+
+# fast build rule for target.
+seq_order/fast:
+	$(MAKE) -f CMakeFiles/seq_order.dir/build.make CMakeFiles/seq_order.dir/build
+.PHONY : seq_order/fast
+
+#=============================================================================
 # Target rules for targets named array_of_threads
 
 # Build rule for target.
@@ -215,6 +293,19 @@ array_of_threads/fast:
 .PHONY : array_of_threads/fast
 
 #=============================================================================
+# Target rules for targets named hp_ramazan
+
+# Build rule for target.
+hp_ramazan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hp_ramazan
+.PHONY : hp_ramazan
+
+# fast build rule for target.
+hp_ramazan/fast:
+	$(MAKE) -f CMakeFiles/hp_ramazan.dir/build.make CMakeFiles/hp_ramazan.dir/build
+.PHONY : hp_ramazan/fast
+
+#=============================================================================
 # Target rules for targets named shared_mutex
 
 # Build rule for target.
@@ -226,6 +317,19 @@ shared_mutex: cmake_check_build_system
 shared_mutex/fast:
 	$(MAKE) -f CMakeFiles/shared_mutex.dir/build.make CMakeFiles/shared_mutex.dir/build
 .PHONY : shared_mutex/fast
+
+#=============================================================================
+# Target rules for targets named bank_loop
+
+# Build rule for target.
+bank_loop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bank_loop
+.PHONY : bank_loop
+
+# fast build rule for target.
+bank_loop/fast:
+	$(MAKE) -f CMakeFiles/bank_loop.dir/build.make CMakeFiles/bank_loop.dir/build
+.PHONY : bank_loop/fast
 
 #=============================================================================
 # Target rules for targets named arguments
@@ -252,6 +356,162 @@ hello: cmake_check_build_system
 hello/fast:
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 .PHONY : hello/fast
+
+#=============================================================================
+# Target rules for targets named async
+
+# Build rule for target.
+async: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 async
+.PHONY : async
+
+# fast build rule for target.
+async/fast:
+	$(MAKE) -f CMakeFiles/async.dir/build.make CMakeFiles/async.dir/build
+.PHONY : async/fast
+
+#=============================================================================
+# Target rules for targets named async_sum
+
+# Build rule for target.
+async_sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 async_sum
+.PHONY : async_sum
+
+# fast build rule for target.
+async_sum/fast:
+	$(MAKE) -f CMakeFiles/async_sum.dir/build.make CMakeFiles/async_sum.dir/build
+.PHONY : async_sum/fast
+
+#=============================================================================
+# Target rules for targets named promise
+
+# Build rule for target.
+promise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 promise
+.PHONY : promise
+
+# fast build rule for target.
+promise/fast:
+	$(MAKE) -f CMakeFiles/promise.dir/build.make CMakeFiles/promise.dir/build
+.PHONY : promise/fast
+
+#=============================================================================
+# Target rules for targets named consume
+
+# Build rule for target.
+consume: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 consume
+.PHONY : consume
+
+# fast build rule for target.
+consume/fast:
+	$(MAKE) -f CMakeFiles/consume.dir/build.make CMakeFiles/consume.dir/build
+.PHONY : consume/fast
+
+#=============================================================================
+# Target rules for targets named rel_acq
+
+# Build rule for target.
+rel_acq: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rel_acq
+.PHONY : rel_acq
+
+# fast build rule for target.
+rel_acq/fast:
+	$(MAKE) -f CMakeFiles/rel_acq.dir/build.make CMakeFiles/rel_acq.dir/build
+.PHONY : rel_acq/fast
+
+#=============================================================================
+# Target rules for targets named atomic_fence
+
+# Build rule for target.
+atomic_fence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atomic_fence
+.PHONY : atomic_fence
+
+# fast build rule for target.
+atomic_fence/fast:
+	$(MAKE) -f CMakeFiles/atomic_fence.dir/build.make CMakeFiles/atomic_fence.dir/build
+.PHONY : atomic_fence/fast
+
+#=============================================================================
+# Target rules for targets named IntegralBogdanov
+
+# Build rule for target.
+IntegralBogdanov: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IntegralBogdanov
+.PHONY : IntegralBogdanov
+
+# fast build rule for target.
+IntegralBogdanov/fast:
+	$(MAKE) -f CMakeFiles/IntegralBogdanov.dir/build.make CMakeFiles/IntegralBogdanov.dir/build
+.PHONY : IntegralBogdanov/fast
+
+#=============================================================================
+# Target rules for targets named release_acquire
+
+# Build rule for target.
+release_acquire: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 release_acquire
+.PHONY : release_acquire
+
+# fast build rule for target.
+release_acquire/fast:
+	$(MAKE) -f CMakeFiles/release_acquire.dir/build.make CMakeFiles/release_acquire.dir/build
+.PHONY : release_acquire/fast
+
+#=============================================================================
+# Target rules for targets named release_consume
+
+# Build rule for target.
+release_consume: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 release_consume
+.PHONY : release_consume
+
+# fast build rule for target.
+release_consume/fast:
+	$(MAKE) -f CMakeFiles/release_consume.dir/build.make CMakeFiles/release_consume.dir/build
+.PHONY : release_consume/fast
+
+#=============================================================================
+# Target rules for targets named future.cpp
+
+# Build rule for target.
+future.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 future.cpp
+.PHONY : future.cpp
+
+# fast build rule for target.
+future.cpp/fast:
+	$(MAKE) -f CMakeFiles/future.cpp.dir/build.make CMakeFiles/future.cpp.dir/build
+.PHONY : future.cpp/fast
+
+#=============================================================================
+# Target rules for targets named packeged_task
+
+# Build rule for target.
+packeged_task: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 packeged_task
+.PHONY : packeged_task
+
+# fast build rule for target.
+packeged_task/fast:
+	$(MAKE) -f CMakeFiles/packeged_task.dir/build.make CMakeFiles/packeged_task.dir/build
+.PHONY : packeged_task/fast
+
+#=============================================================================
+# Target rules for targets named harry_potter
+
+# Build rule for target.
+harry_potter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 harry_potter
+.PHONY : harry_potter
+
+# fast build rule for target.
+harry_potter/fast:
+	$(MAKE) -f CMakeFiles/harry_potter.dir/build.make CMakeFiles/harry_potter.dir/build
+.PHONY : harry_potter/fast
 
 arguments.o: arguments.cpp.o
 
@@ -469,6 +729,33 @@ bank_example/bank_transfer.cpp.s:
 	$(MAKE) -f CMakeFiles/bank_transfer.dir/build.make CMakeFiles/bank_transfer.dir/bank_example/bank_transfer.cpp.s
 .PHONY : bank_example/bank_transfer.cpp.s
 
+harry_potter.o: harry_potter.cpp.o
+
+.PHONY : harry_potter.o
+
+# target to build an object file
+harry_potter.cpp.o:
+	$(MAKE) -f CMakeFiles/harry_potter.dir/build.make CMakeFiles/harry_potter.dir/harry_potter.cpp.o
+.PHONY : harry_potter.cpp.o
+
+harry_potter.i: harry_potter.cpp.i
+
+.PHONY : harry_potter.i
+
+# target to preprocess a source file
+harry_potter.cpp.i:
+	$(MAKE) -f CMakeFiles/harry_potter.dir/build.make CMakeFiles/harry_potter.dir/harry_potter.cpp.i
+.PHONY : harry_potter.cpp.i
+
+harry_potter.s: harry_potter.cpp.s
+
+.PHONY : harry_potter.s
+
+# target to generate assembly for a file
+harry_potter.cpp.s:
+	$(MAKE) -f CMakeFiles/harry_potter.dir/build.make CMakeFiles/harry_potter.dir/harry_potter.cpp.s
+.PHONY : harry_potter.cpp.s
+
 hello.o: hello.cpp.o
 
 .PHONY : hello.o
@@ -523,6 +810,384 @@ recursive_mutex.cpp.s:
 	$(MAKE) -f CMakeFiles/recursive_mutex.dir/build.make CMakeFiles/recursive_mutex.dir/recursive_mutex.cpp.s
 .PHONY : recursive_mutex.cpp.s
 
+sem_2/async.o: sem_2/async.cpp.o
+
+.PHONY : sem_2/async.o
+
+# target to build an object file
+sem_2/async.cpp.o:
+	$(MAKE) -f CMakeFiles/async.dir/build.make CMakeFiles/async.dir/sem_2/async.cpp.o
+.PHONY : sem_2/async.cpp.o
+
+sem_2/async.i: sem_2/async.cpp.i
+
+.PHONY : sem_2/async.i
+
+# target to preprocess a source file
+sem_2/async.cpp.i:
+	$(MAKE) -f CMakeFiles/async.dir/build.make CMakeFiles/async.dir/sem_2/async.cpp.i
+.PHONY : sem_2/async.cpp.i
+
+sem_2/async.s: sem_2/async.cpp.s
+
+.PHONY : sem_2/async.s
+
+# target to generate assembly for a file
+sem_2/async.cpp.s:
+	$(MAKE) -f CMakeFiles/async.dir/build.make CMakeFiles/async.dir/sem_2/async.cpp.s
+.PHONY : sem_2/async.cpp.s
+
+sem_2/async_sum.o: sem_2/async_sum.cpp.o
+
+.PHONY : sem_2/async_sum.o
+
+# target to build an object file
+sem_2/async_sum.cpp.o:
+	$(MAKE) -f CMakeFiles/async_sum.dir/build.make CMakeFiles/async_sum.dir/sem_2/async_sum.cpp.o
+.PHONY : sem_2/async_sum.cpp.o
+
+sem_2/async_sum.i: sem_2/async_sum.cpp.i
+
+.PHONY : sem_2/async_sum.i
+
+# target to preprocess a source file
+sem_2/async_sum.cpp.i:
+	$(MAKE) -f CMakeFiles/async_sum.dir/build.make CMakeFiles/async_sum.dir/sem_2/async_sum.cpp.i
+.PHONY : sem_2/async_sum.cpp.i
+
+sem_2/async_sum.s: sem_2/async_sum.cpp.s
+
+.PHONY : sem_2/async_sum.s
+
+# target to generate assembly for a file
+sem_2/async_sum.cpp.s:
+	$(MAKE) -f CMakeFiles/async_sum.dir/build.make CMakeFiles/async_sum.dir/sem_2/async_sum.cpp.s
+.PHONY : sem_2/async_sum.cpp.s
+
+sem_2/atomic_bool.o: sem_2/atomic_bool.cpp.o
+
+.PHONY : sem_2/atomic_bool.o
+
+# target to build an object file
+sem_2/atomic_bool.cpp.o:
+	$(MAKE) -f CMakeFiles/atomic_bool.dir/build.make CMakeFiles/atomic_bool.dir/sem_2/atomic_bool.cpp.o
+.PHONY : sem_2/atomic_bool.cpp.o
+
+sem_2/atomic_bool.i: sem_2/atomic_bool.cpp.i
+
+.PHONY : sem_2/atomic_bool.i
+
+# target to preprocess a source file
+sem_2/atomic_bool.cpp.i:
+	$(MAKE) -f CMakeFiles/atomic_bool.dir/build.make CMakeFiles/atomic_bool.dir/sem_2/atomic_bool.cpp.i
+.PHONY : sem_2/atomic_bool.cpp.i
+
+sem_2/atomic_bool.s: sem_2/atomic_bool.cpp.s
+
+.PHONY : sem_2/atomic_bool.s
+
+# target to generate assembly for a file
+sem_2/atomic_bool.cpp.s:
+	$(MAKE) -f CMakeFiles/atomic_bool.dir/build.make CMakeFiles/atomic_bool.dir/sem_2/atomic_bool.cpp.s
+.PHONY : sem_2/atomic_bool.cpp.s
+
+sem_2/atomic_fence.o: sem_2/atomic_fence.cpp.o
+
+.PHONY : sem_2/atomic_fence.o
+
+# target to build an object file
+sem_2/atomic_fence.cpp.o:
+	$(MAKE) -f CMakeFiles/atomic_fence.dir/build.make CMakeFiles/atomic_fence.dir/sem_2/atomic_fence.cpp.o
+.PHONY : sem_2/atomic_fence.cpp.o
+
+sem_2/atomic_fence.i: sem_2/atomic_fence.cpp.i
+
+.PHONY : sem_2/atomic_fence.i
+
+# target to preprocess a source file
+sem_2/atomic_fence.cpp.i:
+	$(MAKE) -f CMakeFiles/atomic_fence.dir/build.make CMakeFiles/atomic_fence.dir/sem_2/atomic_fence.cpp.i
+.PHONY : sem_2/atomic_fence.cpp.i
+
+sem_2/atomic_fence.s: sem_2/atomic_fence.cpp.s
+
+.PHONY : sem_2/atomic_fence.s
+
+# target to generate assembly for a file
+sem_2/atomic_fence.cpp.s:
+	$(MAKE) -f CMakeFiles/atomic_fence.dir/build.make CMakeFiles/atomic_fence.dir/sem_2/atomic_fence.cpp.s
+.PHONY : sem_2/atomic_fence.cpp.s
+
+sem_2/consume.o: sem_2/consume.cpp.o
+
+.PHONY : sem_2/consume.o
+
+# target to build an object file
+sem_2/consume.cpp.o:
+	$(MAKE) -f CMakeFiles/consume.dir/build.make CMakeFiles/consume.dir/sem_2/consume.cpp.o
+.PHONY : sem_2/consume.cpp.o
+
+sem_2/consume.i: sem_2/consume.cpp.i
+
+.PHONY : sem_2/consume.i
+
+# target to preprocess a source file
+sem_2/consume.cpp.i:
+	$(MAKE) -f CMakeFiles/consume.dir/build.make CMakeFiles/consume.dir/sem_2/consume.cpp.i
+.PHONY : sem_2/consume.cpp.i
+
+sem_2/consume.s: sem_2/consume.cpp.s
+
+.PHONY : sem_2/consume.s
+
+# target to generate assembly for a file
+sem_2/consume.cpp.s:
+	$(MAKE) -f CMakeFiles/consume.dir/build.make CMakeFiles/consume.dir/sem_2/consume.cpp.s
+.PHONY : sem_2/consume.cpp.s
+
+sem_2/future.o: sem_2/future.cpp.o
+
+.PHONY : sem_2/future.o
+
+# target to build an object file
+sem_2/future.cpp.o:
+	$(MAKE) -f CMakeFiles/future.cpp.dir/build.make CMakeFiles/future.cpp.dir/sem_2/future.cpp.o
+.PHONY : sem_2/future.cpp.o
+
+sem_2/future.i: sem_2/future.cpp.i
+
+.PHONY : sem_2/future.i
+
+# target to preprocess a source file
+sem_2/future.cpp.i:
+	$(MAKE) -f CMakeFiles/future.cpp.dir/build.make CMakeFiles/future.cpp.dir/sem_2/future.cpp.i
+.PHONY : sem_2/future.cpp.i
+
+sem_2/future.s: sem_2/future.cpp.s
+
+.PHONY : sem_2/future.s
+
+# target to generate assembly for a file
+sem_2/future.cpp.s:
+	$(MAKE) -f CMakeFiles/future.cpp.dir/build.make CMakeFiles/future.cpp.dir/sem_2/future.cpp.s
+.PHONY : sem_2/future.cpp.s
+
+sem_2/packeged_task.o: sem_2/packeged_task.cpp.o
+
+.PHONY : sem_2/packeged_task.o
+
+# target to build an object file
+sem_2/packeged_task.cpp.o:
+	$(MAKE) -f CMakeFiles/packeged_task.dir/build.make CMakeFiles/packeged_task.dir/sem_2/packeged_task.cpp.o
+.PHONY : sem_2/packeged_task.cpp.o
+
+sem_2/packeged_task.i: sem_2/packeged_task.cpp.i
+
+.PHONY : sem_2/packeged_task.i
+
+# target to preprocess a source file
+sem_2/packeged_task.cpp.i:
+	$(MAKE) -f CMakeFiles/packeged_task.dir/build.make CMakeFiles/packeged_task.dir/sem_2/packeged_task.cpp.i
+.PHONY : sem_2/packeged_task.cpp.i
+
+sem_2/packeged_task.s: sem_2/packeged_task.cpp.s
+
+.PHONY : sem_2/packeged_task.s
+
+# target to generate assembly for a file
+sem_2/packeged_task.cpp.s:
+	$(MAKE) -f CMakeFiles/packeged_task.dir/build.make CMakeFiles/packeged_task.dir/sem_2/packeged_task.cpp.s
+.PHONY : sem_2/packeged_task.cpp.s
+
+sem_2/promise.o: sem_2/promise.cpp.o
+
+.PHONY : sem_2/promise.o
+
+# target to build an object file
+sem_2/promise.cpp.o:
+	$(MAKE) -f CMakeFiles/promise.dir/build.make CMakeFiles/promise.dir/sem_2/promise.cpp.o
+.PHONY : sem_2/promise.cpp.o
+
+sem_2/promise.i: sem_2/promise.cpp.i
+
+.PHONY : sem_2/promise.i
+
+# target to preprocess a source file
+sem_2/promise.cpp.i:
+	$(MAKE) -f CMakeFiles/promise.dir/build.make CMakeFiles/promise.dir/sem_2/promise.cpp.i
+.PHONY : sem_2/promise.cpp.i
+
+sem_2/promise.s: sem_2/promise.cpp.s
+
+.PHONY : sem_2/promise.s
+
+# target to generate assembly for a file
+sem_2/promise.cpp.s:
+	$(MAKE) -f CMakeFiles/promise.dir/build.make CMakeFiles/promise.dir/sem_2/promise.cpp.s
+.PHONY : sem_2/promise.cpp.s
+
+sem_2/rel_acq.o: sem_2/rel_acq.cpp.o
+
+.PHONY : sem_2/rel_acq.o
+
+# target to build an object file
+sem_2/rel_acq.cpp.o:
+	$(MAKE) -f CMakeFiles/rel_acq.dir/build.make CMakeFiles/rel_acq.dir/sem_2/rel_acq.cpp.o
+.PHONY : sem_2/rel_acq.cpp.o
+
+sem_2/rel_acq.i: sem_2/rel_acq.cpp.i
+
+.PHONY : sem_2/rel_acq.i
+
+# target to preprocess a source file
+sem_2/rel_acq.cpp.i:
+	$(MAKE) -f CMakeFiles/rel_acq.dir/build.make CMakeFiles/rel_acq.dir/sem_2/rel_acq.cpp.i
+.PHONY : sem_2/rel_acq.cpp.i
+
+sem_2/rel_acq.s: sem_2/rel_acq.cpp.s
+
+.PHONY : sem_2/rel_acq.s
+
+# target to generate assembly for a file
+sem_2/rel_acq.cpp.s:
+	$(MAKE) -f CMakeFiles/rel_acq.dir/build.make CMakeFiles/rel_acq.dir/sem_2/rel_acq.cpp.s
+.PHONY : sem_2/rel_acq.cpp.s
+
+sem_2/relaxed_order.o: sem_2/relaxed_order.cpp.o
+
+.PHONY : sem_2/relaxed_order.o
+
+# target to build an object file
+sem_2/relaxed_order.cpp.o:
+	$(MAKE) -f CMakeFiles/relaxed_order.dir/build.make CMakeFiles/relaxed_order.dir/sem_2/relaxed_order.cpp.o
+.PHONY : sem_2/relaxed_order.cpp.o
+
+sem_2/relaxed_order.i: sem_2/relaxed_order.cpp.i
+
+.PHONY : sem_2/relaxed_order.i
+
+# target to preprocess a source file
+sem_2/relaxed_order.cpp.i:
+	$(MAKE) -f CMakeFiles/relaxed_order.dir/build.make CMakeFiles/relaxed_order.dir/sem_2/relaxed_order.cpp.i
+.PHONY : sem_2/relaxed_order.cpp.i
+
+sem_2/relaxed_order.s: sem_2/relaxed_order.cpp.s
+
+.PHONY : sem_2/relaxed_order.s
+
+# target to generate assembly for a file
+sem_2/relaxed_order.cpp.s:
+	$(MAKE) -f CMakeFiles/relaxed_order.dir/build.make CMakeFiles/relaxed_order.dir/sem_2/relaxed_order.cpp.s
+.PHONY : sem_2/relaxed_order.cpp.s
+
+sem_2/release_acquire.o: sem_2/release_acquire.cpp.o
+
+.PHONY : sem_2/release_acquire.o
+
+# target to build an object file
+sem_2/release_acquire.cpp.o:
+	$(MAKE) -f CMakeFiles/release_acquire.dir/build.make CMakeFiles/release_acquire.dir/sem_2/release_acquire.cpp.o
+.PHONY : sem_2/release_acquire.cpp.o
+
+sem_2/release_acquire.i: sem_2/release_acquire.cpp.i
+
+.PHONY : sem_2/release_acquire.i
+
+# target to preprocess a source file
+sem_2/release_acquire.cpp.i:
+	$(MAKE) -f CMakeFiles/release_acquire.dir/build.make CMakeFiles/release_acquire.dir/sem_2/release_acquire.cpp.i
+.PHONY : sem_2/release_acquire.cpp.i
+
+sem_2/release_acquire.s: sem_2/release_acquire.cpp.s
+
+.PHONY : sem_2/release_acquire.s
+
+# target to generate assembly for a file
+sem_2/release_acquire.cpp.s:
+	$(MAKE) -f CMakeFiles/release_acquire.dir/build.make CMakeFiles/release_acquire.dir/sem_2/release_acquire.cpp.s
+.PHONY : sem_2/release_acquire.cpp.s
+
+sem_2/release_consume.o: sem_2/release_consume.cpp.o
+
+.PHONY : sem_2/release_consume.o
+
+# target to build an object file
+sem_2/release_consume.cpp.o:
+	$(MAKE) -f CMakeFiles/release_consume.dir/build.make CMakeFiles/release_consume.dir/sem_2/release_consume.cpp.o
+.PHONY : sem_2/release_consume.cpp.o
+
+sem_2/release_consume.i: sem_2/release_consume.cpp.i
+
+.PHONY : sem_2/release_consume.i
+
+# target to preprocess a source file
+sem_2/release_consume.cpp.i:
+	$(MAKE) -f CMakeFiles/release_consume.dir/build.make CMakeFiles/release_consume.dir/sem_2/release_consume.cpp.i
+.PHONY : sem_2/release_consume.cpp.i
+
+sem_2/release_consume.s: sem_2/release_consume.cpp.s
+
+.PHONY : sem_2/release_consume.s
+
+# target to generate assembly for a file
+sem_2/release_consume.cpp.s:
+	$(MAKE) -f CMakeFiles/release_consume.dir/build.make CMakeFiles/release_consume.dir/sem_2/release_consume.cpp.s
+.PHONY : sem_2/release_consume.cpp.s
+
+sem_2/seq_order.o: sem_2/seq_order.cpp.o
+
+.PHONY : sem_2/seq_order.o
+
+# target to build an object file
+sem_2/seq_order.cpp.o:
+	$(MAKE) -f CMakeFiles/seq_order.dir/build.make CMakeFiles/seq_order.dir/sem_2/seq_order.cpp.o
+.PHONY : sem_2/seq_order.cpp.o
+
+sem_2/seq_order.i: sem_2/seq_order.cpp.i
+
+.PHONY : sem_2/seq_order.i
+
+# target to preprocess a source file
+sem_2/seq_order.cpp.i:
+	$(MAKE) -f CMakeFiles/seq_order.dir/build.make CMakeFiles/seq_order.dir/sem_2/seq_order.cpp.i
+.PHONY : sem_2/seq_order.cpp.i
+
+sem_2/seq_order.s: sem_2/seq_order.cpp.s
+
+.PHONY : sem_2/seq_order.s
+
+# target to generate assembly for a file
+sem_2/seq_order.cpp.s:
+	$(MAKE) -f CMakeFiles/seq_order.dir/build.make CMakeFiles/seq_order.dir/sem_2/seq_order.cpp.s
+.PHONY : sem_2/seq_order.cpp.s
+
+sem_2/shared_future.o: sem_2/shared_future.cpp.o
+
+.PHONY : sem_2/shared_future.o
+
+# target to build an object file
+sem_2/shared_future.cpp.o:
+	$(MAKE) -f CMakeFiles/shared_future.dir/build.make CMakeFiles/shared_future.dir/sem_2/shared_future.cpp.o
+.PHONY : sem_2/shared_future.cpp.o
+
+sem_2/shared_future.i: sem_2/shared_future.cpp.i
+
+.PHONY : sem_2/shared_future.i
+
+# target to preprocess a source file
+sem_2/shared_future.cpp.i:
+	$(MAKE) -f CMakeFiles/shared_future.dir/build.make CMakeFiles/shared_future.dir/sem_2/shared_future.cpp.i
+.PHONY : sem_2/shared_future.cpp.i
+
+sem_2/shared_future.s: sem_2/shared_future.cpp.s
+
+.PHONY : sem_2/shared_future.s
+
+# target to generate assembly for a file
+sem_2/shared_future.cpp.s:
+	$(MAKE) -f CMakeFiles/shared_future.dir/build.make CMakeFiles/shared_future.dir/sem_2/shared_future.cpp.s
+.PHONY : sem_2/shared_future.cpp.s
+
 shared_mutex.o: shared_mutex.cpp.o
 
 .PHONY : shared_mutex.o
@@ -556,19 +1221,39 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... atomic_flag"
-	@echo "... atomic"
-	@echo "... bank_transfer"
+	@echo "... hp_ziganshin"
 	@echo "... recursive_mutex"
-	@echo "... bank_loop"
+	@echo "... shared_future"
+	@echo "... atomic_flag"
+	@echo "... relaxed_order"
+	@echo "... atomic"
+	@echo "... hp_faizulina"
+	@echo "... bank_transfer"
+	@echo "... miem1"
+	@echo "... atomic_bool"
 	@echo "... bank"
 	@echo "... bank_recursive"
+	@echo "... seq_order"
 	@echo "... array_of_threads"
+	@echo "... hp_ramazan"
 	@echo "... shared_mutex"
+	@echo "... bank_loop"
 	@echo "... arguments"
 	@echo "... hello"
+	@echo "... async"
+	@echo "... edit_cache"
+	@echo "... async_sum"
+	@echo "... promise"
+	@echo "... consume"
+	@echo "... rel_acq"
+	@echo "... atomic_fence"
+	@echo "... IntegralBogdanov"
+	@echo "... release_acquire"
+	@echo "... release_consume"
+	@echo "... future.cpp"
+	@echo "... packeged_task"
+	@echo "... harry_potter"
 	@echo "... arguments.o"
 	@echo "... arguments.i"
 	@echo "... arguments.s"
@@ -593,12 +1278,57 @@ help:
 	@echo "... bank_example/bank_transfer.o"
 	@echo "... bank_example/bank_transfer.i"
 	@echo "... bank_example/bank_transfer.s"
+	@echo "... harry_potter.o"
+	@echo "... harry_potter.i"
+	@echo "... harry_potter.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
 	@echo "... recursive_mutex.o"
 	@echo "... recursive_mutex.i"
 	@echo "... recursive_mutex.s"
+	@echo "... sem_2/async.o"
+	@echo "... sem_2/async.i"
+	@echo "... sem_2/async.s"
+	@echo "... sem_2/async_sum.o"
+	@echo "... sem_2/async_sum.i"
+	@echo "... sem_2/async_sum.s"
+	@echo "... sem_2/atomic_bool.o"
+	@echo "... sem_2/atomic_bool.i"
+	@echo "... sem_2/atomic_bool.s"
+	@echo "... sem_2/atomic_fence.o"
+	@echo "... sem_2/atomic_fence.i"
+	@echo "... sem_2/atomic_fence.s"
+	@echo "... sem_2/consume.o"
+	@echo "... sem_2/consume.i"
+	@echo "... sem_2/consume.s"
+	@echo "... sem_2/future.o"
+	@echo "... sem_2/future.i"
+	@echo "... sem_2/future.s"
+	@echo "... sem_2/packeged_task.o"
+	@echo "... sem_2/packeged_task.i"
+	@echo "... sem_2/packeged_task.s"
+	@echo "... sem_2/promise.o"
+	@echo "... sem_2/promise.i"
+	@echo "... sem_2/promise.s"
+	@echo "... sem_2/rel_acq.o"
+	@echo "... sem_2/rel_acq.i"
+	@echo "... sem_2/rel_acq.s"
+	@echo "... sem_2/relaxed_order.o"
+	@echo "... sem_2/relaxed_order.i"
+	@echo "... sem_2/relaxed_order.s"
+	@echo "... sem_2/release_acquire.o"
+	@echo "... sem_2/release_acquire.i"
+	@echo "... sem_2/release_acquire.s"
+	@echo "... sem_2/release_consume.o"
+	@echo "... sem_2/release_consume.i"
+	@echo "... sem_2/release_consume.s"
+	@echo "... sem_2/seq_order.o"
+	@echo "... sem_2/seq_order.i"
+	@echo "... sem_2/seq_order.s"
+	@echo "... sem_2/shared_future.o"
+	@echo "... sem_2/shared_future.i"
+	@echo "... sem_2/shared_future.s"
 	@echo "... shared_mutex.o"
 	@echo "... shared_mutex.i"
 	@echo "... shared_mutex.s"

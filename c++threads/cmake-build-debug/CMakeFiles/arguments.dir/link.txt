@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++17 -pthread -g   CMakeFiles/arguments.dir/arguments.cpp.o  -o arguments 
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/arguments.dir/arguments.cpp.o  -o arguments 

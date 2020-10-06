@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/packeged_task.dir/sem_2/packeged_task.cpp.o  -o packeged_task 

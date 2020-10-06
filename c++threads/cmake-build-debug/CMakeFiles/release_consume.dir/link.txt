@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/release_consume.dir/sem_2/release_consume.cpp.o  -o release_consume 

@@ -30,7 +30,7 @@ int main()
     int result = 0;
     auto f = [&result]()
             {result = sum(1, 2);};
-    std::cout << "Hello from lambda function\n";
+
     std::thread t1(func, i);
     sleep(1);
     std::cout << "main thread message after function = " << i << std::endl;
@@ -40,6 +40,7 @@ int main()
     std::cout << "main thread message after ref function = " << i << std::endl;
     t.join();
     std::thread lam_th(f);
+    std::cout << "Hello from lambda function\n";
     sleep(1);
     std::cout << "main thread message after lambda return = " << result << std::endl;
     lam_th.join();

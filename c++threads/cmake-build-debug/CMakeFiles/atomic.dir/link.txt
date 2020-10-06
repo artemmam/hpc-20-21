@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++17 -pthread -g   CMakeFiles/atomic.dir/atomic.cpp.o  -o atomic 
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/atomic.dir/atomic.cpp.o  -o atomic 

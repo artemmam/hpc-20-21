@@ -24,16 +24,16 @@ public:
     bool withdraw(int amount) {
         //std::unique_lock<std::mutex> ul(m);
         //std::lock_guard<std::mutex> lg(m);
-        //m.lock();
+        m.lock();
         if (balance >= amount) {
             std::this_thread::sleep_for(std::chrono::milliseconds(1));
             balance -= amount;
-            //m.unlock();
+            m.unlock();
             //ul.unlock();
             std::this_thread::sleep_for(std::chrono::milliseconds(500));
             return true;
         } else {
-            //m.unlock();
+            m.unlock();
             //ul.unlock();
             std::this_thread::sleep_for(std::chrono::milliseconds(500));
             return false;

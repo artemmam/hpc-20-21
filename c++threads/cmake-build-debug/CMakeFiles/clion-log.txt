@@ -1,4 +1,73 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/ARTEM/CLionProjects/c++threads
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
+CMake Error at CMakeLists.txt:37 (add_executable):
+  Cannot find source file:
+
+    MIEM/advanced/harry_ziganshin.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:35 (add_executable):
+  Cannot find source file:
+
+    MIEM/advanced/harry_potter_faizulina.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  Cannot find source file:
+
+    MIEM/advanced/ConsoleApplication4.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:36 (add_executable):
+  Cannot find source file:
+
+    MIEM/advanced/harry_ramazan.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:33 (add_executable):
+  Cannot find source file:
+
+    MIEM/advanced/IntegralBogdanov.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: hp_ziganshin
+CMake Error: Cannot determine link language for target "hp_ziganshin".
+CMake Error: CMake can not determine linker language for target: hp_faizulina
+CMake Error: Cannot determine link language for target "hp_faizulina".
+CMake Error: CMake can not determine linker language for target: miem1
+CMake Error: Cannot determine link language for target "miem1".
+CMake Error: CMake can not determine linker language for target: hp_ramazan
+CMake Error: Cannot determine link language for target "hp_ramazan".
+CMake Error: CMake can not determine linker language for target: IntegralBogdanov
+CMake Error: Cannot determine link language for target "IntegralBogdanov".
 -- Generating done
 -- Build files have been written to: /mnt/c/Users/ARTEM/CLionProjects/c++threads/cmake-build-debug

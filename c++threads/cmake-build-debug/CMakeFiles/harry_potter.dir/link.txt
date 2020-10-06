@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/harry_potter.dir/harry_potter.cpp.o  -o harry_potter 

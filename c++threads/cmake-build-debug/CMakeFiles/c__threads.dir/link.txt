@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/c__threads.dir/hello.cpp.o  -o c__threads 
