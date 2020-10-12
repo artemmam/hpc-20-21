@@ -1,0 +1,12 @@
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/single.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/for_loop.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/array_reculc.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/var_vis.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/sections.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/hello_omp_wrong.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/nowait.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/hello_omp.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/integ.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/openmp.dir

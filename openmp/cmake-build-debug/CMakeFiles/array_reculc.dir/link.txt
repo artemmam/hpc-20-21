@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/array_reculc.dir/array_reculc.cpp.o  -o array_reculc 

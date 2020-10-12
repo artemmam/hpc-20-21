@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/nowait.dir/nowait.cpp.o  -o nowait 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/for_loop.dir/for_loop.cpp.o  -o for_loop 
