@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/var_between_threads.dir/var_between_threads.cpp.o  -o var_between_threads 

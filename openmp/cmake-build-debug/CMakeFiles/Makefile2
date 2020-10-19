@@ -60,298 +60,224 @@ CMAKE_SOURCE_DIR = /mnt/c/Users/ARTEM/CLionProjects/openmp
 CMAKE_BINARY_DIR = /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/single.dir
+# Target rules for target CMakeFiles/optimization.dir
 
 # All Build rule for target.
-CMakeFiles/single.dir/all:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/depend
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target single"
-.PHONY : CMakeFiles/single.dir/all
+CMakeFiles/optimization.dir/all:
+	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/depend
+	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target optimization"
+.PHONY : CMakeFiles/optimization.dir/all
 
 # Include target in all.
-all: CMakeFiles/single.dir/all
+all: CMakeFiles/optimization.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/single.dir/rule: cmake_check_build_system
+CMakeFiles/optimization.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/single.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/optimization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/single.dir/rule
+.PHONY : CMakeFiles/optimization.dir/rule
 
 # Convenience name for target.
-single: CMakeFiles/single.dir/rule
+optimization: CMakeFiles/optimization.dir/rule
 
-.PHONY : single
-
-# clean rule for target.
-CMakeFiles/single.dir/clean:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/clean
-.PHONY : CMakeFiles/single.dir/clean
+.PHONY : optimization
 
 # clean rule for target.
-clean: CMakeFiles/single.dir/clean
+CMakeFiles/optimization.dir/clean:
+	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/clean
+.PHONY : CMakeFiles/optimization.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/optimization.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/for_loop.dir
+# Target rules for target CMakeFiles/quick_sort.dir
 
 # All Build rule for target.
-CMakeFiles/for_loop.dir/all:
-	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/depend
-	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target for_loop"
-.PHONY : CMakeFiles/for_loop.dir/all
+CMakeFiles/quick_sort.dir/all:
+	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/depend
+	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target quick_sort"
+.PHONY : CMakeFiles/quick_sort.dir/all
 
 # Include target in all.
-all: CMakeFiles/for_loop.dir/all
+all: CMakeFiles/quick_sort.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/for_loop.dir/rule: cmake_check_build_system
+CMakeFiles/quick_sort.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/for_loop.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/quick_sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/for_loop.dir/rule
+.PHONY : CMakeFiles/quick_sort.dir/rule
 
 # Convenience name for target.
-for_loop: CMakeFiles/for_loop.dir/rule
+quick_sort: CMakeFiles/quick_sort.dir/rule
 
-.PHONY : for_loop
-
-# clean rule for target.
-CMakeFiles/for_loop.dir/clean:
-	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/clean
-.PHONY : CMakeFiles/for_loop.dir/clean
+.PHONY : quick_sort
 
 # clean rule for target.
-clean: CMakeFiles/for_loop.dir/clean
+CMakeFiles/quick_sort.dir/clean:
+	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/clean
+.PHONY : CMakeFiles/quick_sort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/quick_sort.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/array_reculc.dir
+# Target rules for target CMakeFiles/false_sharing.dir
 
 # All Build rule for target.
-CMakeFiles/array_reculc.dir/all:
-	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/depend
-	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target array_reculc"
-.PHONY : CMakeFiles/array_reculc.dir/all
+CMakeFiles/false_sharing.dir/all:
+	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/depend
+	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target false_sharing"
+.PHONY : CMakeFiles/false_sharing.dir/all
 
 # Include target in all.
-all: CMakeFiles/array_reculc.dir/all
+all: CMakeFiles/false_sharing.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/array_reculc.dir/rule: cmake_check_build_system
+CMakeFiles/false_sharing.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array_reculc.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/false_sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/array_reculc.dir/rule
+.PHONY : CMakeFiles/false_sharing.dir/rule
 
 # Convenience name for target.
-array_reculc: CMakeFiles/array_reculc.dir/rule
+false_sharing: CMakeFiles/false_sharing.dir/rule
 
-.PHONY : array_reculc
-
-# clean rule for target.
-CMakeFiles/array_reculc.dir/clean:
-	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/clean
-.PHONY : CMakeFiles/array_reculc.dir/clean
+.PHONY : false_sharing
 
 # clean rule for target.
-clean: CMakeFiles/array_reculc.dir/clean
+CMakeFiles/false_sharing.dir/clean:
+	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/clean
+.PHONY : CMakeFiles/false_sharing.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/false_sharing.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/var_vis.dir
+# Target rules for target CMakeFiles/mandelbrot.dir
 
 # All Build rule for target.
-CMakeFiles/var_vis.dir/all:
-	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/depend
-	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target var_vis"
-.PHONY : CMakeFiles/var_vis.dir/all
+CMakeFiles/mandelbrot.dir/all:
+	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/depend
+	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target mandelbrot"
+.PHONY : CMakeFiles/mandelbrot.dir/all
 
 # Include target in all.
-all: CMakeFiles/var_vis.dir/all
+all: CMakeFiles/mandelbrot.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/var_vis.dir/rule: cmake_check_build_system
+CMakeFiles/mandelbrot.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/var_vis.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mandelbrot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/var_vis.dir/rule
+.PHONY : CMakeFiles/mandelbrot.dir/rule
 
 # Convenience name for target.
-var_vis: CMakeFiles/var_vis.dir/rule
+mandelbrot: CMakeFiles/mandelbrot.dir/rule
 
-.PHONY : var_vis
-
-# clean rule for target.
-CMakeFiles/var_vis.dir/clean:
-	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/clean
-.PHONY : CMakeFiles/var_vis.dir/clean
+.PHONY : mandelbrot
 
 # clean rule for target.
-clean: CMakeFiles/var_vis.dir/clean
+CMakeFiles/mandelbrot.dir/clean:
+	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/clean
+.PHONY : CMakeFiles/mandelbrot.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mandelbrot.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sections.dir
+# Target rules for target CMakeFiles/openmp.dir
 
 # All Build rule for target.
-CMakeFiles/sections.dir/all:
-	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/depend
-	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target sections"
-.PHONY : CMakeFiles/sections.dir/all
+CMakeFiles/openmp.dir/all:
+	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/depend
+	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target openmp"
+.PHONY : CMakeFiles/openmp.dir/all
 
 # Include target in all.
-all: CMakeFiles/sections.dir/all
+all: CMakeFiles/openmp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sections.dir/rule: cmake_check_build_system
+CMakeFiles/openmp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sections.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/openmp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/sections.dir/rule
+.PHONY : CMakeFiles/openmp.dir/rule
 
 # Convenience name for target.
-sections: CMakeFiles/sections.dir/rule
+openmp: CMakeFiles/openmp.dir/rule
 
-.PHONY : sections
-
-# clean rule for target.
-CMakeFiles/sections.dir/clean:
-	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/clean
-.PHONY : CMakeFiles/sections.dir/clean
+.PHONY : openmp
 
 # clean rule for target.
-clean: CMakeFiles/sections.dir/clean
+CMakeFiles/openmp.dir/clean:
+	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/clean
+.PHONY : CMakeFiles/openmp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/openmp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_omp_wrong.dir
+# Target rules for target CMakeFiles/synchronization.dir
 
 # All Build rule for target.
-CMakeFiles/hello_omp_wrong.dir/all:
-	$(MAKE) -f CMakeFiles/hello_omp_wrong.dir/build.make CMakeFiles/hello_omp_wrong.dir/depend
-	$(MAKE) -f CMakeFiles/hello_omp_wrong.dir/build.make CMakeFiles/hello_omp_wrong.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hello_omp_wrong"
-.PHONY : CMakeFiles/hello_omp_wrong.dir/all
+CMakeFiles/synchronization.dir/all:
+	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/depend
+	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target synchronization"
+.PHONY : CMakeFiles/synchronization.dir/all
 
 # Include target in all.
-all: CMakeFiles/hello_omp_wrong.dir/all
+all: CMakeFiles/synchronization.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello_omp_wrong.dir/rule: cmake_check_build_system
+CMakeFiles/synchronization.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_omp_wrong.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/synchronization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_omp_wrong.dir/rule
+.PHONY : CMakeFiles/synchronization.dir/rule
 
 # Convenience name for target.
-hello_omp_wrong: CMakeFiles/hello_omp_wrong.dir/rule
+synchronization: CMakeFiles/synchronization.dir/rule
 
-.PHONY : hello_omp_wrong
-
-# clean rule for target.
-CMakeFiles/hello_omp_wrong.dir/clean:
-	$(MAKE) -f CMakeFiles/hello_omp_wrong.dir/build.make CMakeFiles/hello_omp_wrong.dir/clean
-.PHONY : CMakeFiles/hello_omp_wrong.dir/clean
+.PHONY : synchronization
 
 # clean rule for target.
-clean: CMakeFiles/hello_omp_wrong.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nowait.dir
-
-# All Build rule for target.
-CMakeFiles/nowait.dir/all:
-	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/depend
-	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target nowait"
-.PHONY : CMakeFiles/nowait.dir/all
-
-# Include target in all.
-all: CMakeFiles/nowait.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nowait.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nowait.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/nowait.dir/rule
-
-# Convenience name for target.
-nowait: CMakeFiles/nowait.dir/rule
-
-.PHONY : nowait
+CMakeFiles/synchronization.dir/clean:
+	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/clean
+.PHONY : CMakeFiles/synchronization.dir/clean
 
 # clean rule for target.
-CMakeFiles/nowait.dir/clean:
-	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/clean
-.PHONY : CMakeFiles/nowait.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nowait.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello_omp.dir
-
-# All Build rule for target.
-CMakeFiles/hello_omp.dir/all:
-	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/depend
-	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target hello_omp"
-.PHONY : CMakeFiles/hello_omp.dir/all
-
-# Include target in all.
-all: CMakeFiles/hello_omp.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_omp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_omp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_omp.dir/rule
-
-# Convenience name for target.
-hello_omp: CMakeFiles/hello_omp.dir/rule
-
-.PHONY : hello_omp
-
-# clean rule for target.
-CMakeFiles/hello_omp.dir/clean:
-	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/clean
-.PHONY : CMakeFiles/hello_omp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/hello_omp.dir/clean
+clean: CMakeFiles/synchronization.dir/clean
 
 .PHONY : clean
 
@@ -362,7 +288,7 @@ clean: CMakeFiles/hello_omp.dir/clean
 CMakeFiles/integ.dir/all:
 	$(MAKE) -f CMakeFiles/integ.dir/build.make CMakeFiles/integ.dir/depend
 	$(MAKE) -f CMakeFiles/integ.dir/build.make CMakeFiles/integ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target integ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target integ"
 .PHONY : CMakeFiles/integ.dir/all
 
 # Include target in all.
@@ -393,39 +319,409 @@ clean: CMakeFiles/integ.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/openmp.dir
+# Target rules for target CMakeFiles/hello_omp.dir
 
 # All Build rule for target.
-CMakeFiles/openmp.dir/all:
-	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/depend
-	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target openmp"
-.PHONY : CMakeFiles/openmp.dir/all
+CMakeFiles/hello_omp.dir/all:
+	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/depend
+	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target hello_omp"
+.PHONY : CMakeFiles/hello_omp.dir/all
 
 # Include target in all.
-all: CMakeFiles/openmp.dir/all
+all: CMakeFiles/hello_omp.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/openmp.dir/rule: cmake_check_build_system
+CMakeFiles/hello_omp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/openmp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_omp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/openmp.dir/rule
+.PHONY : CMakeFiles/hello_omp.dir/rule
 
 # Convenience name for target.
-openmp: CMakeFiles/openmp.dir/rule
+hello_omp: CMakeFiles/hello_omp.dir/rule
 
-.PHONY : openmp
-
-# clean rule for target.
-CMakeFiles/openmp.dir/clean:
-	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/clean
-.PHONY : CMakeFiles/openmp.dir/clean
+.PHONY : hello_omp
 
 # clean rule for target.
-clean: CMakeFiles/openmp.dir/clean
+CMakeFiles/hello_omp.dir/clean:
+	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/clean
+.PHONY : CMakeFiles/hello_omp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hello_omp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/var_between_threads.dir
+
+# All Build rule for target.
+CMakeFiles/var_between_threads.dir/all:
+	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/depend
+	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target var_between_threads"
+.PHONY : CMakeFiles/var_between_threads.dir/all
+
+# Include target in all.
+all: CMakeFiles/var_between_threads.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/var_between_threads.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/var_between_threads.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/var_between_threads.dir/rule
+
+# Convenience name for target.
+var_between_threads: CMakeFiles/var_between_threads.dir/rule
+
+.PHONY : var_between_threads
+
+# clean rule for target.
+CMakeFiles/var_between_threads.dir/clean:
+	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/clean
+.PHONY : CMakeFiles/var_between_threads.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/var_between_threads.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/nowait.dir
+
+# All Build rule for target.
+CMakeFiles/nowait.dir/all:
+	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/depend
+	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target nowait"
+.PHONY : CMakeFiles/nowait.dir/all
+
+# Include target in all.
+all: CMakeFiles/nowait.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/nowait.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nowait.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/nowait.dir/rule
+
+# Convenience name for target.
+nowait: CMakeFiles/nowait.dir/rule
+
+.PHONY : nowait
+
+# clean rule for target.
+CMakeFiles/nowait.dir/clean:
+	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/clean
+.PHONY : CMakeFiles/nowait.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/nowait.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/array_reculc.dir
+
+# All Build rule for target.
+CMakeFiles/array_reculc.dir/all:
+	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/depend
+	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target array_reculc"
+.PHONY : CMakeFiles/array_reculc.dir/all
+
+# Include target in all.
+all: CMakeFiles/array_reculc.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array_reculc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array_reculc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/array_reculc.dir/rule
+
+# Convenience name for target.
+array_reculc: CMakeFiles/array_reculc.dir/rule
+
+.PHONY : array_reculc
+
+# clean rule for target.
+CMakeFiles/array_reculc.dir/clean:
+	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/clean
+.PHONY : CMakeFiles/array_reculc.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/array_reculc.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/for_loop.dir
+
+# All Build rule for target.
+CMakeFiles/for_loop.dir/all:
+	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/depend
+	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target for_loop"
+.PHONY : CMakeFiles/for_loop.dir/all
+
+# Include target in all.
+all: CMakeFiles/for_loop.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/for_loop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/for_loop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/for_loop.dir/rule
+
+# Convenience name for target.
+for_loop: CMakeFiles/for_loop.dir/rule
+
+.PHONY : for_loop
+
+# clean rule for target.
+CMakeFiles/for_loop.dir/clean:
+	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/clean
+.PHONY : CMakeFiles/for_loop.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/for_loop.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sections.dir
+
+# All Build rule for target.
+CMakeFiles/sections.dir/all:
+	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/depend
+	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target sections"
+.PHONY : CMakeFiles/sections.dir/all
+
+# Include target in all.
+all: CMakeFiles/sections.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sections.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sections.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sections.dir/rule
+
+# Convenience name for target.
+sections: CMakeFiles/sections.dir/rule
+
+.PHONY : sections
+
+# clean rule for target.
+CMakeFiles/sections.dir/clean:
+	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/clean
+.PHONY : CMakeFiles/sections.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sections.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/var_vis.dir
+
+# All Build rule for target.
+CMakeFiles/var_vis.dir/all:
+	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/depend
+	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target var_vis"
+.PHONY : CMakeFiles/var_vis.dir/all
+
+# Include target in all.
+all: CMakeFiles/var_vis.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/var_vis.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/var_vis.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/var_vis.dir/rule
+
+# Convenience name for target.
+var_vis: CMakeFiles/var_vis.dir/rule
+
+.PHONY : var_vis
+
+# clean rule for target.
+CMakeFiles/var_vis.dir/clean:
+	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/clean
+.PHONY : CMakeFiles/var_vis.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/var_vis.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/adaptive_quadrature.dir
+
+# All Build rule for target.
+CMakeFiles/adaptive_quadrature.dir/all:
+	$(MAKE) -f CMakeFiles/adaptive_quadrature.dir/build.make CMakeFiles/adaptive_quadrature.dir/depend
+	$(MAKE) -f CMakeFiles/adaptive_quadrature.dir/build.make CMakeFiles/adaptive_quadrature.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target adaptive_quadrature"
+.PHONY : CMakeFiles/adaptive_quadrature.dir/all
+
+# Include target in all.
+all: CMakeFiles/adaptive_quadrature.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/adaptive_quadrature.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/adaptive_quadrature.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/adaptive_quadrature.dir/rule
+
+# Convenience name for target.
+adaptive_quadrature: CMakeFiles/adaptive_quadrature.dir/rule
+
+.PHONY : adaptive_quadrature
+
+# clean rule for target.
+CMakeFiles/adaptive_quadrature.dir/clean:
+	$(MAKE) -f CMakeFiles/adaptive_quadrature.dir/build.make CMakeFiles/adaptive_quadrature.dir/clean
+.PHONY : CMakeFiles/adaptive_quadrature.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/adaptive_quadrature.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/single.dir
+
+# All Build rule for target.
+CMakeFiles/single.dir/all:
+	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/depend
+	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target single"
+.PHONY : CMakeFiles/single.dir/all
+
+# Include target in all.
+all: CMakeFiles/single.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/single.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/single.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/single.dir/rule
+
+# Convenience name for target.
+single: CMakeFiles/single.dir/rule
+
+.PHONY : single
+
+# clean rule for target.
+CMakeFiles/single.dir/clean:
+	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/clean
+.PHONY : CMakeFiles/single.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/single.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task.dir
+
+# All Build rule for target.
+CMakeFiles/task.dir/all:
+	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/depend
+	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target task"
+.PHONY : CMakeFiles/task.dir/all
+
+# Include target in all.
+all: CMakeFiles/task.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/task.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task.dir/rule
+
+# Convenience name for target.
+task: CMakeFiles/task.dir/rule
+
+.PHONY : task
+
+# clean rule for target.
+CMakeFiles/task.dir/clean:
+	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/clean
+.PHONY : CMakeFiles/task.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/task.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/barrier.dir
+
+# All Build rule for target.
+CMakeFiles/barrier.dir/all:
+	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/depend
+	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target barrier"
+.PHONY : CMakeFiles/barrier.dir/all
+
+# Include target in all.
+all: CMakeFiles/barrier.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/barrier.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/barrier.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/barrier.dir/rule
+
+# Convenience name for target.
+barrier: CMakeFiles/barrier.dir/rule
+
+.PHONY : barrier
+
+# clean rule for target.
+CMakeFiles/barrier.dir/clean:
+	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/clean
+.PHONY : CMakeFiles/barrier.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/barrier.dir/clean
 
 .PHONY : clean
 

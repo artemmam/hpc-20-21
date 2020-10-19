@@ -5,7 +5,6 @@ int main()
     int np = omp_get_num_procs();
     printf("Total number of processors is %d\n", np);
     omp_set_num_threads(4);
-    //omp_set_dynamic(1);
 
 #pragma omp parallel
     printf("Hello, World from thread %d of %d\n",

@@ -9,10 +9,6 @@
 /mnt/c/Users/ARTEM/CLionProjects/openmp/integ.cpp
 stdio.h
 -
-stdlib.h
--
-time.h
--
 omp.h
 -
 

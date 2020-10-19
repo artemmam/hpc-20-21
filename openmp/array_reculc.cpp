@@ -11,7 +11,10 @@ int main() {
         a.push_back(i);
         b.push_back(0);
     }
-#pragma omp parallel default(shared)
+    double start;
+
+    start = omp_get_wtime();
+#pragma omp parallel
     {
 #pragma omp for nowait
         for (i = 1; i < N - 1; i++) {
@@ -33,9 +36,10 @@ int main() {
 
         }
     }
+    printf("Time = %f\n", omp_get_wtime() - start);
     bool flag = true;
     for (int i = 1; i < N - 1; i++) {
-        if (b[i] != (i - 1 + i + i + 1) / 3) {
+        if (b[i] != i) {
             flag = false;
         }
     }

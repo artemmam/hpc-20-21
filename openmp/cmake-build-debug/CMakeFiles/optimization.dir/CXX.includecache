@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ARTEM/CLionProjects/openmp/optimization.cpp
+stdio.h
+-
+omp.h
+-
+vector
+/mnt/c/Users/ARTEM/CLionProjects/openmp/vector
+cmath
+-
+

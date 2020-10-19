@@ -111,108 +111,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named single
+# Target rules for targets named optimization
 
 # Build rule for target.
-single: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 single
-.PHONY : single
+optimization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 optimization
+.PHONY : optimization
 
 # fast build rule for target.
-single/fast:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/build
-.PHONY : single/fast
+optimization/fast:
+	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/build
+.PHONY : optimization/fast
 
 #=============================================================================
-# Target rules for targets named for_loop
+# Target rules for targets named quick_sort
 
 # Build rule for target.
-for_loop: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 for_loop
-.PHONY : for_loop
+quick_sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quick_sort
+.PHONY : quick_sort
 
 # fast build rule for target.
-for_loop/fast:
-	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/build
-.PHONY : for_loop/fast
+quick_sort/fast:
+	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/build
+.PHONY : quick_sort/fast
 
 #=============================================================================
-# Target rules for targets named array_reculc
+# Target rules for targets named false_sharing
 
 # Build rule for target.
-array_reculc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array_reculc
-.PHONY : array_reculc
+false_sharing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 false_sharing
+.PHONY : false_sharing
 
 # fast build rule for target.
-array_reculc/fast:
-	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/build
-.PHONY : array_reculc/fast
+false_sharing/fast:
+	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/build
+.PHONY : false_sharing/fast
 
 #=============================================================================
-# Target rules for targets named var_vis
+# Target rules for targets named mandelbrot
 
 # Build rule for target.
-var_vis: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 var_vis
-.PHONY : var_vis
+mandelbrot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mandelbrot
+.PHONY : mandelbrot
 
 # fast build rule for target.
-var_vis/fast:
-	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/build
-.PHONY : var_vis/fast
+mandelbrot/fast:
+	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/build
+.PHONY : mandelbrot/fast
 
 #=============================================================================
-# Target rules for targets named sections
+# Target rules for targets named openmp
 
 # Build rule for target.
-sections: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sections
-.PHONY : sections
+openmp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 openmp
+.PHONY : openmp
 
 # fast build rule for target.
-sections/fast:
-	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/build
-.PHONY : sections/fast
+openmp/fast:
+	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/build
+.PHONY : openmp/fast
 
 #=============================================================================
-# Target rules for targets named hello_omp_wrong
+# Target rules for targets named synchronization
 
 # Build rule for target.
-hello_omp_wrong: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_omp_wrong
-.PHONY : hello_omp_wrong
+synchronization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 synchronization
+.PHONY : synchronization
 
 # fast build rule for target.
-hello_omp_wrong/fast:
-	$(MAKE) -f CMakeFiles/hello_omp_wrong.dir/build.make CMakeFiles/hello_omp_wrong.dir/build
-.PHONY : hello_omp_wrong/fast
-
-#=============================================================================
-# Target rules for targets named nowait
-
-# Build rule for target.
-nowait: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nowait
-.PHONY : nowait
-
-# fast build rule for target.
-nowait/fast:
-	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/build
-.PHONY : nowait/fast
-
-#=============================================================================
-# Target rules for targets named hello_omp
-
-# Build rule for target.
-hello_omp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_omp
-.PHONY : hello_omp
-
-# fast build rule for target.
-hello_omp/fast:
-	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/build
-.PHONY : hello_omp/fast
+synchronization/fast:
+	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/build
+.PHONY : synchronization/fast
 
 #=============================================================================
 # Target rules for targets named integ
@@ -228,17 +202,174 @@ integ/fast:
 .PHONY : integ/fast
 
 #=============================================================================
-# Target rules for targets named openmp
+# Target rules for targets named hello_omp
 
 # Build rule for target.
-openmp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 openmp
-.PHONY : openmp
+hello_omp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_omp
+.PHONY : hello_omp
 
 # fast build rule for target.
-openmp/fast:
-	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/build
-.PHONY : openmp/fast
+hello_omp/fast:
+	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/build
+.PHONY : hello_omp/fast
+
+#=============================================================================
+# Target rules for targets named var_between_threads
+
+# Build rule for target.
+var_between_threads: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 var_between_threads
+.PHONY : var_between_threads
+
+# fast build rule for target.
+var_between_threads/fast:
+	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/build
+.PHONY : var_between_threads/fast
+
+#=============================================================================
+# Target rules for targets named nowait
+
+# Build rule for target.
+nowait: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nowait
+.PHONY : nowait
+
+# fast build rule for target.
+nowait/fast:
+	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/build
+.PHONY : nowait/fast
+
+#=============================================================================
+# Target rules for targets named array_reculc
+
+# Build rule for target.
+array_reculc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array_reculc
+.PHONY : array_reculc
+
+# fast build rule for target.
+array_reculc/fast:
+	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/build
+.PHONY : array_reculc/fast
+
+#=============================================================================
+# Target rules for targets named for_loop
+
+# Build rule for target.
+for_loop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 for_loop
+.PHONY : for_loop
+
+# fast build rule for target.
+for_loop/fast:
+	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/build
+.PHONY : for_loop/fast
+
+#=============================================================================
+# Target rules for targets named sections
+
+# Build rule for target.
+sections: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sections
+.PHONY : sections
+
+# fast build rule for target.
+sections/fast:
+	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/build
+.PHONY : sections/fast
+
+#=============================================================================
+# Target rules for targets named var_vis
+
+# Build rule for target.
+var_vis: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 var_vis
+.PHONY : var_vis
+
+# fast build rule for target.
+var_vis/fast:
+	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/build
+.PHONY : var_vis/fast
+
+#=============================================================================
+# Target rules for targets named adaptive_quadrature
+
+# Build rule for target.
+adaptive_quadrature: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adaptive_quadrature
+.PHONY : adaptive_quadrature
+
+# fast build rule for target.
+adaptive_quadrature/fast:
+	$(MAKE) -f CMakeFiles/adaptive_quadrature.dir/build.make CMakeFiles/adaptive_quadrature.dir/build
+.PHONY : adaptive_quadrature/fast
+
+#=============================================================================
+# Target rules for targets named single
+
+# Build rule for target.
+single: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 single
+.PHONY : single
+
+# fast build rule for target.
+single/fast:
+	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/build
+.PHONY : single/fast
+
+#=============================================================================
+# Target rules for targets named task
+
+# Build rule for target.
+task: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task
+.PHONY : task
+
+# fast build rule for target.
+task/fast:
+	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/build
+.PHONY : task/fast
+
+#=============================================================================
+# Target rules for targets named barrier
+
+# Build rule for target.
+barrier: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 barrier
+.PHONY : barrier
+
+# fast build rule for target.
+barrier/fast:
+	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/build
+.PHONY : barrier/fast
+
+adaptive_quadrature.o: adaptive_quadrature.cpp.o
+
+.PHONY : adaptive_quadrature.o
+
+# target to build an object file
+adaptive_quadrature.cpp.o:
+	$(MAKE) -f CMakeFiles/adaptive_quadrature.dir/build.make CMakeFiles/adaptive_quadrature.dir/adaptive_quadrature.cpp.o
+.PHONY : adaptive_quadrature.cpp.o
+
+adaptive_quadrature.i: adaptive_quadrature.cpp.i
+
+.PHONY : adaptive_quadrature.i
+
+# target to preprocess a source file
+adaptive_quadrature.cpp.i:
+	$(MAKE) -f CMakeFiles/adaptive_quadrature.dir/build.make CMakeFiles/adaptive_quadrature.dir/adaptive_quadrature.cpp.i
+.PHONY : adaptive_quadrature.cpp.i
+
+adaptive_quadrature.s: adaptive_quadrature.cpp.s
+
+.PHONY : adaptive_quadrature.s
+
+# target to generate assembly for a file
+adaptive_quadrature.cpp.s:
+	$(MAKE) -f CMakeFiles/adaptive_quadrature.dir/build.make CMakeFiles/adaptive_quadrature.dir/adaptive_quadrature.cpp.s
+.PHONY : adaptive_quadrature.cpp.s
 
 array_reculc.o: array_reculc.cpp.o
 
@@ -266,6 +397,60 @@ array_reculc.s: array_reculc.cpp.s
 array_reculc.cpp.s:
 	$(MAKE) -f CMakeFiles/array_reculc.dir/build.make CMakeFiles/array_reculc.dir/array_reculc.cpp.s
 .PHONY : array_reculc.cpp.s
+
+barrier.o: barrier.cpp.o
+
+.PHONY : barrier.o
+
+# target to build an object file
+barrier.cpp.o:
+	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/barrier.cpp.o
+.PHONY : barrier.cpp.o
+
+barrier.i: barrier.cpp.i
+
+.PHONY : barrier.i
+
+# target to preprocess a source file
+barrier.cpp.i:
+	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/barrier.cpp.i
+.PHONY : barrier.cpp.i
+
+barrier.s: barrier.cpp.s
+
+.PHONY : barrier.s
+
+# target to generate assembly for a file
+barrier.cpp.s:
+	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/barrier.cpp.s
+.PHONY : barrier.cpp.s
+
+false_sharing.o: false_sharing.cpp.o
+
+.PHONY : false_sharing.o
+
+# target to build an object file
+false_sharing.cpp.o:
+	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/false_sharing.cpp.o
+.PHONY : false_sharing.cpp.o
+
+false_sharing.i: false_sharing.cpp.i
+
+.PHONY : false_sharing.i
+
+# target to preprocess a source file
+false_sharing.cpp.i:
+	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/false_sharing.cpp.i
+.PHONY : false_sharing.cpp.i
+
+false_sharing.s: false_sharing.cpp.s
+
+.PHONY : false_sharing.s
+
+# target to generate assembly for a file
+false_sharing.cpp.s:
+	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/false_sharing.cpp.s
+.PHONY : false_sharing.cpp.s
 
 for_loop.o: for_loop.cpp.o
 
@@ -321,33 +506,6 @@ hello.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/hello.cpp.s
 .PHONY : hello.cpp.s
 
-hello_wrong.o: hello_wrong.cpp.o
-
-.PHONY : hello_wrong.o
-
-# target to build an object file
-hello_wrong.cpp.o:
-	$(MAKE) -f CMakeFiles/hello_omp_wrong.dir/build.make CMakeFiles/hello_omp_wrong.dir/hello_wrong.cpp.o
-.PHONY : hello_wrong.cpp.o
-
-hello_wrong.i: hello_wrong.cpp.i
-
-.PHONY : hello_wrong.i
-
-# target to preprocess a source file
-hello_wrong.cpp.i:
-	$(MAKE) -f CMakeFiles/hello_omp_wrong.dir/build.make CMakeFiles/hello_omp_wrong.dir/hello_wrong.cpp.i
-.PHONY : hello_wrong.cpp.i
-
-hello_wrong.s: hello_wrong.cpp.s
-
-.PHONY : hello_wrong.s
-
-# target to generate assembly for a file
-hello_wrong.cpp.s:
-	$(MAKE) -f CMakeFiles/hello_omp_wrong.dir/build.make CMakeFiles/hello_omp_wrong.dir/hello_wrong.cpp.s
-.PHONY : hello_wrong.cpp.s
-
 integ.o: integ.cpp.o
 
 .PHONY : integ.o
@@ -402,6 +560,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mandelbrot.o: mandelbrot.cpp.o
+
+.PHONY : mandelbrot.o
+
+# target to build an object file
+mandelbrot.cpp.o:
+	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/mandelbrot.cpp.o
+.PHONY : mandelbrot.cpp.o
+
+mandelbrot.i: mandelbrot.cpp.i
+
+.PHONY : mandelbrot.i
+
+# target to preprocess a source file
+mandelbrot.cpp.i:
+	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/mandelbrot.cpp.i
+.PHONY : mandelbrot.cpp.i
+
+mandelbrot.s: mandelbrot.cpp.s
+
+.PHONY : mandelbrot.s
+
+# target to generate assembly for a file
+mandelbrot.cpp.s:
+	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/mandelbrot.cpp.s
+.PHONY : mandelbrot.cpp.s
+
 nowait.o: nowait.cpp.o
 
 .PHONY : nowait.o
@@ -428,6 +613,60 @@ nowait.s: nowait.cpp.s
 nowait.cpp.s:
 	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/nowait.cpp.s
 .PHONY : nowait.cpp.s
+
+optimization.o: optimization.cpp.o
+
+.PHONY : optimization.o
+
+# target to build an object file
+optimization.cpp.o:
+	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/optimization.cpp.o
+.PHONY : optimization.cpp.o
+
+optimization.i: optimization.cpp.i
+
+.PHONY : optimization.i
+
+# target to preprocess a source file
+optimization.cpp.i:
+	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/optimization.cpp.i
+.PHONY : optimization.cpp.i
+
+optimization.s: optimization.cpp.s
+
+.PHONY : optimization.s
+
+# target to generate assembly for a file
+optimization.cpp.s:
+	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/optimization.cpp.s
+.PHONY : optimization.cpp.s
+
+quick_sort.o: quick_sort.cpp.o
+
+.PHONY : quick_sort.o
+
+# target to build an object file
+quick_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort.cpp.o
+.PHONY : quick_sort.cpp.o
+
+quick_sort.i: quick_sort.cpp.i
+
+.PHONY : quick_sort.i
+
+# target to preprocess a source file
+quick_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort.cpp.i
+.PHONY : quick_sort.cpp.i
+
+quick_sort.s: quick_sort.cpp.s
+
+.PHONY : quick_sort.s
+
+# target to generate assembly for a file
+quick_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort.cpp.s
+.PHONY : quick_sort.cpp.s
 
 sections.o: sections.cpp.o
 
@@ -483,6 +722,87 @@ single.cpp.s:
 	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/single.cpp.s
 .PHONY : single.cpp.s
 
+synchronization.o: synchronization.cpp.o
+
+.PHONY : synchronization.o
+
+# target to build an object file
+synchronization.cpp.o:
+	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/synchronization.cpp.o
+.PHONY : synchronization.cpp.o
+
+synchronization.i: synchronization.cpp.i
+
+.PHONY : synchronization.i
+
+# target to preprocess a source file
+synchronization.cpp.i:
+	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/synchronization.cpp.i
+.PHONY : synchronization.cpp.i
+
+synchronization.s: synchronization.cpp.s
+
+.PHONY : synchronization.s
+
+# target to generate assembly for a file
+synchronization.cpp.s:
+	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/synchronization.cpp.s
+.PHONY : synchronization.cpp.s
+
+task.o: task.cpp.o
+
+.PHONY : task.o
+
+# target to build an object file
+task.cpp.o:
+	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/task.cpp.o
+.PHONY : task.cpp.o
+
+task.i: task.cpp.i
+
+.PHONY : task.i
+
+# target to preprocess a source file
+task.cpp.i:
+	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/task.cpp.i
+.PHONY : task.cpp.i
+
+task.s: task.cpp.s
+
+.PHONY : task.s
+
+# target to generate assembly for a file
+task.cpp.s:
+	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/task.cpp.s
+.PHONY : task.cpp.s
+
+var_between_threads.o: var_between_threads.cpp.o
+
+.PHONY : var_between_threads.o
+
+# target to build an object file
+var_between_threads.cpp.o:
+	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/var_between_threads.cpp.o
+.PHONY : var_between_threads.cpp.o
+
+var_between_threads.i: var_between_threads.cpp.i
+
+.PHONY : var_between_threads.i
+
+# target to preprocess a source file
+var_between_threads.cpp.i:
+	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/var_between_threads.cpp.i
+.PHONY : var_between_threads.cpp.i
+
+var_between_threads.s: var_between_threads.cpp.s
+
+.PHONY : var_between_threads.s
+
+# target to generate assembly for a file
+var_between_threads.cpp.s:
+	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/var_between_threads.cpp.s
+.PHONY : var_between_threads.cpp.s
+
 var_vis.o: var_vis.cpp.o
 
 .PHONY : var_vis.o
@@ -516,45 +836,77 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... single"
-	@echo "... for_loop"
-	@echo "... array_reculc"
-	@echo "... var_vis"
+	@echo "... optimization"
+	@echo "... quick_sort"
+	@echo "... false_sharing"
+	@echo "... mandelbrot"
 	@echo "... rebuild_cache"
-	@echo "... sections"
-	@echo "... hello_omp_wrong"
 	@echo "... edit_cache"
-	@echo "... nowait"
-	@echo "... hello_omp"
-	@echo "... integ"
 	@echo "... openmp"
+	@echo "... synchronization"
+	@echo "... integ"
+	@echo "... hello_omp"
+	@echo "... var_between_threads"
+	@echo "... nowait"
+	@echo "... array_reculc"
+	@echo "... for_loop"
+	@echo "... sections"
+	@echo "... var_vis"
+	@echo "... adaptive_quadrature"
+	@echo "... single"
+	@echo "... task"
+	@echo "... barrier"
+	@echo "... adaptive_quadrature.o"
+	@echo "... adaptive_quadrature.i"
+	@echo "... adaptive_quadrature.s"
 	@echo "... array_reculc.o"
 	@echo "... array_reculc.i"
 	@echo "... array_reculc.s"
+	@echo "... barrier.o"
+	@echo "... barrier.i"
+	@echo "... barrier.s"
+	@echo "... false_sharing.o"
+	@echo "... false_sharing.i"
+	@echo "... false_sharing.s"
 	@echo "... for_loop.o"
 	@echo "... for_loop.i"
 	@echo "... for_loop.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
-	@echo "... hello_wrong.o"
-	@echo "... hello_wrong.i"
-	@echo "... hello_wrong.s"
 	@echo "... integ.o"
 	@echo "... integ.i"
 	@echo "... integ.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mandelbrot.o"
+	@echo "... mandelbrot.i"
+	@echo "... mandelbrot.s"
 	@echo "... nowait.o"
 	@echo "... nowait.i"
 	@echo "... nowait.s"
+	@echo "... optimization.o"
+	@echo "... optimization.i"
+	@echo "... optimization.s"
+	@echo "... quick_sort.o"
+	@echo "... quick_sort.i"
+	@echo "... quick_sort.s"
 	@echo "... sections.o"
 	@echo "... sections.i"
 	@echo "... sections.s"
 	@echo "... single.o"
 	@echo "... single.i"
 	@echo "... single.s"
+	@echo "... synchronization.o"
+	@echo "... synchronization.i"
+	@echo "... synchronization.s"
+	@echo "... task.o"
+	@echo "... task.i"
+	@echo "... task.s"
+	@echo "... var_between_threads.o"
+	@echo "... var_between_threads.i"
+	@echo "... var_between_threads.s"
 	@echo "... var_vis.o"
 	@echo "... var_vis.i"
 	@echo "... var_vis.s"

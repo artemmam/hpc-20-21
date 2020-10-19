@@ -20,14 +20,14 @@ int main()
     }
 #pragma omp parallel
     {
-#pragma omp for nowait
+#pragma omp for
         for (i=1; i<n; i++)
         {
             printf("Thread number %d first cycle\n",
                    omp_get_thread_num());
             b[i] = int((a[i] + a[i-1]) / 2.0);
         }
-#pragma omp for nowait
+#pragma omp for
         for (i=0; i<m; i++) {
             y[i] = int(sqrt(z[i]));
             printf("Thread number %d second cycle\n",

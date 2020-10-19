@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/adaptive_quadrature.dir/adaptive_quadrature.cpp.o  -o adaptive_quadrature 

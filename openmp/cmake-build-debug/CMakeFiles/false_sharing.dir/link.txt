@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/false_sharing.dir/false_sharing.cpp.o  -o false_sharing 

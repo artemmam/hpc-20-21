@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/synchronization.dir/synchronization.cpp.o  -o synchronization 

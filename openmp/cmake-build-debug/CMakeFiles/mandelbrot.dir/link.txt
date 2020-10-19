@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/mandelbrot.dir/mandelbrot.cpp.o  -o mandelbrot 
