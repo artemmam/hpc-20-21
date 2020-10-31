@@ -52,6 +52,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/bug2.dir/DependInfo.cmake"
   "CMakeFiles/mandelbrot.dir/DependInfo.cmake"
   "CMakeFiles/openmp.dir/DependInfo.cmake"
+  "CMakeFiles/bug4.dir/DependInfo.cmake"
   "CMakeFiles/synchronization.dir/DependInfo.cmake"
   "CMakeFiles/integ.dir/DependInfo.cmake"
   "CMakeFiles/hello_omp.dir/DependInfo.cmake"

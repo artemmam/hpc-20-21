@@ -7,6 +7,7 @@
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/openmp.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/bug4.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/synchronization.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/integ.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/hello_omp.dir

@@ -140,7 +140,7 @@ clean: CMakeFiles/bug1.dir/clean
 CMakeFiles/optimization.dir/all:
 	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/depend
 	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target optimization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target optimization"
 .PHONY : CMakeFiles/optimization.dir/all
 
 # Include target in all.
@@ -177,7 +177,7 @@ clean: CMakeFiles/optimization.dir/clean
 CMakeFiles/false_sharing.dir/all:
 	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/depend
 	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target false_sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target false_sharing"
 .PHONY : CMakeFiles/false_sharing.dir/all
 
 # Include target in all.
@@ -251,7 +251,7 @@ clean: CMakeFiles/bug2.dir/clean
 CMakeFiles/mandelbrot.dir/all:
 	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/depend
 	$(MAKE) -f CMakeFiles/mandelbrot.dir/build.make CMakeFiles/mandelbrot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target mandelbrot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target mandelbrot"
 .PHONY : CMakeFiles/mandelbrot.dir/all
 
 # Include target in all.
@@ -288,7 +288,7 @@ clean: CMakeFiles/mandelbrot.dir/clean
 CMakeFiles/openmp.dir/all:
 	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/depend
 	$(MAKE) -f CMakeFiles/openmp.dir/build.make CMakeFiles/openmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target openmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target openmp"
 .PHONY : CMakeFiles/openmp.dir/all
 
 # Include target in all.
@@ -319,13 +319,50 @@ clean: CMakeFiles/openmp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/bug4.dir
+
+# All Build rule for target.
+CMakeFiles/bug4.dir/all:
+	$(MAKE) -f CMakeFiles/bug4.dir/build.make CMakeFiles/bug4.dir/depend
+	$(MAKE) -f CMakeFiles/bug4.dir/build.make CMakeFiles/bug4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target bug4"
+.PHONY : CMakeFiles/bug4.dir/all
+
+# Include target in all.
+all: CMakeFiles/bug4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bug4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bug4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/bug4.dir/rule
+
+# Convenience name for target.
+bug4: CMakeFiles/bug4.dir/rule
+
+.PHONY : bug4
+
+# clean rule for target.
+CMakeFiles/bug4.dir/clean:
+	$(MAKE) -f CMakeFiles/bug4.dir/build.make CMakeFiles/bug4.dir/clean
+.PHONY : CMakeFiles/bug4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/bug4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/synchronization.dir
 
 # All Build rule for target.
 CMakeFiles/synchronization.dir/all:
 	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/depend
 	$(MAKE) -f CMakeFiles/synchronization.dir/build.make CMakeFiles/synchronization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target synchronization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target synchronization"
 .PHONY : CMakeFiles/synchronization.dir/all
 
 # Include target in all.
@@ -362,7 +399,7 @@ clean: CMakeFiles/synchronization.dir/clean
 CMakeFiles/integ.dir/all:
 	$(MAKE) -f CMakeFiles/integ.dir/build.make CMakeFiles/integ.dir/depend
 	$(MAKE) -f CMakeFiles/integ.dir/build.make CMakeFiles/integ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target integ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target integ"
 .PHONY : CMakeFiles/integ.dir/all
 
 # Include target in all.
@@ -399,7 +436,7 @@ clean: CMakeFiles/integ.dir/clean
 CMakeFiles/hello_omp.dir/all:
 	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/depend
 	$(MAKE) -f CMakeFiles/hello_omp.dir/build.make CMakeFiles/hello_omp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target hello_omp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target hello_omp"
 .PHONY : CMakeFiles/hello_omp.dir/all
 
 # Include target in all.
@@ -436,7 +473,7 @@ clean: CMakeFiles/hello_omp.dir/clean
 CMakeFiles/var_between_threads.dir/all:
 	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/depend
 	$(MAKE) -f CMakeFiles/var_between_threads.dir/build.make CMakeFiles/var_between_threads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target var_between_threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target var_between_threads"
 .PHONY : CMakeFiles/var_between_threads.dir/all
 
 # Include target in all.
@@ -473,7 +510,7 @@ clean: CMakeFiles/var_between_threads.dir/clean
 CMakeFiles/nowait.dir/all:
 	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/depend
 	$(MAKE) -f CMakeFiles/nowait.dir/build.make CMakeFiles/nowait.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target nowait"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target nowait"
 .PHONY : CMakeFiles/nowait.dir/all
 
 # Include target in all.
@@ -547,7 +584,7 @@ clean: CMakeFiles/array_reculc.dir/clean
 CMakeFiles/for_loop.dir/all:
 	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/depend
 	$(MAKE) -f CMakeFiles/for_loop.dir/build.make CMakeFiles/for_loop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target for_loop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target for_loop"
 .PHONY : CMakeFiles/for_loop.dir/all
 
 # Include target in all.
@@ -584,7 +621,7 @@ clean: CMakeFiles/for_loop.dir/clean
 CMakeFiles/sections.dir/all:
 	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/depend
 	$(MAKE) -f CMakeFiles/sections.dir/build.make CMakeFiles/sections.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target sections"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target sections"
 .PHONY : CMakeFiles/sections.dir/all
 
 # Include target in all.
@@ -621,7 +658,7 @@ clean: CMakeFiles/sections.dir/clean
 CMakeFiles/var_vis.dir/all:
 	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/depend
 	$(MAKE) -f CMakeFiles/var_vis.dir/build.make CMakeFiles/var_vis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target var_vis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target var_vis"
 .PHONY : CMakeFiles/var_vis.dir/all
 
 # Include target in all.
@@ -695,7 +732,7 @@ clean: CMakeFiles/adaptive_quadrature.dir/clean
 CMakeFiles/single.dir/all:
 	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/depend
 	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target single"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target single"
 .PHONY : CMakeFiles/single.dir/all
 
 # Include target in all.
@@ -732,7 +769,7 @@ clean: CMakeFiles/single.dir/clean
 CMakeFiles/task.dir/all:
 	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/depend
 	$(MAKE) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target task"
 .PHONY : CMakeFiles/task.dir/all
 
 # Include target in all.

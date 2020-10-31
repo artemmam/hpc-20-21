@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define N 1000000
-#define PI 3.1415926535
-#define DELTA .01415926535
 
 int main (int argc, char *argv[])
 {
@@ -42,11 +40,11 @@ int main (int argc, char *argv[])
                 omp_set_lock(&locka);
                 printf("Thread %d updating a[]\n",tid);
                 for (i=0; i<N; i++)
-                    a[i] += DELTA * i;
+                    a[i] += i;
                 omp_set_lock(&lockb);
                 printf("Thread %d updating b[]\n",tid);
                 for (i=0; i<N; i++)
-                    b[i] += DELTA + i;
+                    b[i] += i;
                 omp_unset_lock(&lockb);
                 omp_unset_lock(&locka);
             }
@@ -56,18 +54,16 @@ int main (int argc, char *argv[])
                 omp_set_lock(&lockb);
                 printf("Thread %d updating b[]\n",tid);
                 for (i=0; i<N; i++)
-                    b[i] += PI * i;
+                    b[i] += 2 * i;
                 omp_set_lock(&locka);
                 printf("Thread %d adding b[] to a[]\n",tid);
                 for (i=0; i<N; i++)
-                    a[i] += PI + i;
+                    a[i] += b[i] + i;
                 omp_unset_lock(&locka);
                 omp_unset_lock(&lockb);
             }
 
         }  /* end of sections */
     }  /* end of parallel region */
-
-    printf("Sample results: %f %f %f %f\n",a[0],b[0],a[999999],b[999999]);
 
 }

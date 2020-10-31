@@ -202,6 +202,19 @@ openmp/fast:
 .PHONY : openmp/fast
 
 #=============================================================================
+# Target rules for targets named bug4
+
+# Build rule for target.
+bug4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bug4
+.PHONY : bug4
+
+# fast build rule for target.
+bug4/fast:
+	$(MAKE) -f CMakeFiles/bug4.dir/build.make CMakeFiles/bug4.dir/build
+.PHONY : bug4/fast
+
+#=============================================================================
 # Target rules for targets named synchronization
 
 # Build rule for target.
@@ -531,6 +544,33 @@ buggy_examples/bug3.s: buggy_examples/bug3.cpp.s
 buggy_examples/bug3.cpp.s:
 	$(MAKE) -f CMakeFiles/bug3.dir/build.make CMakeFiles/bug3.dir/buggy_examples/bug3.cpp.s
 .PHONY : buggy_examples/bug3.cpp.s
+
+buggy_examples/bug4.o: buggy_examples/bug4.cpp.o
+
+.PHONY : buggy_examples/bug4.o
+
+# target to build an object file
+buggy_examples/bug4.cpp.o:
+	$(MAKE) -f CMakeFiles/bug4.dir/build.make CMakeFiles/bug4.dir/buggy_examples/bug4.cpp.o
+.PHONY : buggy_examples/bug4.cpp.o
+
+buggy_examples/bug4.i: buggy_examples/bug4.cpp.i
+
+.PHONY : buggy_examples/bug4.i
+
+# target to preprocess a source file
+buggy_examples/bug4.cpp.i:
+	$(MAKE) -f CMakeFiles/bug4.dir/build.make CMakeFiles/bug4.dir/buggy_examples/bug4.cpp.i
+.PHONY : buggy_examples/bug4.cpp.i
+
+buggy_examples/bug4.s: buggy_examples/bug4.cpp.s
+
+.PHONY : buggy_examples/bug4.s
+
+# target to generate assembly for a file
+buggy_examples/bug4.cpp.s:
+	$(MAKE) -f CMakeFiles/bug4.dir/build.make CMakeFiles/bug4.dir/buggy_examples/bug4.cpp.s
+.PHONY : buggy_examples/bug4.cpp.s
 
 false_sharing.o: false_sharing.cpp.o
 
@@ -925,6 +965,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... openmp"
+	@echo "... bug4"
 	@echo "... synchronization"
 	@echo "... integ"
 	@echo "... hello_omp"
@@ -956,6 +997,9 @@ help:
 	@echo "... buggy_examples/bug3.o"
 	@echo "... buggy_examples/bug3.i"
 	@echo "... buggy_examples/bug3.s"
+	@echo "... buggy_examples/bug4.o"
+	@echo "... buggy_examples/bug4.i"
+	@echo "... buggy_examples/bug4.s"
 	@echo "... false_sharing.o"
 	@echo "... false_sharing.i"
 	@echo "... false_sharing.s"
