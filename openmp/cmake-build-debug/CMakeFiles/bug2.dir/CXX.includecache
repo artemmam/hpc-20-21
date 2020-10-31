@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ARTEM/CLionProjects/openmp/buggy_examples/bug2.cpp
+omp.h
+-
+stdio.h
+-
+stdlib.h
+-
+

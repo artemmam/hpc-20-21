@@ -1,6 +1,8 @@
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/bug3.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/bug1.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/optimization.dir
-/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/quick_sort.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/false_sharing.dir
+/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/bug2.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/mandelbrot.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/edit_cache.dir

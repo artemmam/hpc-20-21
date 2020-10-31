@@ -6,7 +6,7 @@ int main()
     int i;
     printf("'a' before parallel section =  %d\n",
            a);
-    omp_set_num_threads(2);
+    omp_set_num_threads(8);
     int N = 20;
     double start;
 
@@ -21,8 +21,18 @@ int main()
 //    printf("'a' after parallel section =  %d\n",
 //           a);
 //    printf("Time = %f",omp_get_wtime() - start);
-#pragma omp parallel for collapse(2)
+//#pragma omp parallel for collapse(2)
+//    for (i = 0; i < N; i++) {
+//        for (int j = 0; j < N; j++) {
+//            a++;
+//#pragma omp critical
+//            printf("Incremented 'a' = %d by thread number %d\n",
+//                   a, omp_get_thread_num());
+//        }
+//    }
+#pragma omp parallel for
     for (i = 0; i < N; i++) {
+#pragma omp parallel for
         for (int j = 0; j < N; j++) {
             a++;
 #pragma omp critical

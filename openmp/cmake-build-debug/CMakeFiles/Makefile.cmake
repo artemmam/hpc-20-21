@@ -45,9 +45,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/bug3.dir/DependInfo.cmake"
+  "CMakeFiles/bug1.dir/DependInfo.cmake"
   "CMakeFiles/optimization.dir/DependInfo.cmake"
-  "CMakeFiles/quick_sort.dir/DependInfo.cmake"
   "CMakeFiles/false_sharing.dir/DependInfo.cmake"
+  "CMakeFiles/bug2.dir/DependInfo.cmake"
   "CMakeFiles/mandelbrot.dir/DependInfo.cmake"
   "CMakeFiles/openmp.dir/DependInfo.cmake"
   "CMakeFiles/synchronization.dir/DependInfo.cmake"

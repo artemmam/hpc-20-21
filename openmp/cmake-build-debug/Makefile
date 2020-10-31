@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named bug3
+
+# Build rule for target.
+bug3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bug3
+.PHONY : bug3
+
+# fast build rule for target.
+bug3/fast:
+	$(MAKE) -f CMakeFiles/bug3.dir/build.make CMakeFiles/bug3.dir/build
+.PHONY : bug3/fast
+
+#=============================================================================
+# Target rules for targets named bug1
+
+# Build rule for target.
+bug1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bug1
+.PHONY : bug1
+
+# fast build rule for target.
+bug1/fast:
+	$(MAKE) -f CMakeFiles/bug1.dir/build.make CMakeFiles/bug1.dir/build
+.PHONY : bug1/fast
+
+#=============================================================================
 # Target rules for targets named optimization
 
 # Build rule for target.
@@ -124,19 +150,6 @@ optimization/fast:
 .PHONY : optimization/fast
 
 #=============================================================================
-# Target rules for targets named quick_sort
-
-# Build rule for target.
-quick_sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 quick_sort
-.PHONY : quick_sort
-
-# fast build rule for target.
-quick_sort/fast:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/build
-.PHONY : quick_sort/fast
-
-#=============================================================================
 # Target rules for targets named false_sharing
 
 # Build rule for target.
@@ -148,6 +161,19 @@ false_sharing: cmake_check_build_system
 false_sharing/fast:
 	$(MAKE) -f CMakeFiles/false_sharing.dir/build.make CMakeFiles/false_sharing.dir/build
 .PHONY : false_sharing/fast
+
+#=============================================================================
+# Target rules for targets named bug2
+
+# Build rule for target.
+bug2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bug2
+.PHONY : bug2
+
+# fast build rule for target.
+bug2/fast:
+	$(MAKE) -f CMakeFiles/bug2.dir/build.make CMakeFiles/bug2.dir/build
+.PHONY : bug2/fast
 
 #=============================================================================
 # Target rules for targets named mandelbrot
@@ -425,6 +451,87 @@ barrier.cpp.s:
 	$(MAKE) -f CMakeFiles/barrier.dir/build.make CMakeFiles/barrier.dir/barrier.cpp.s
 .PHONY : barrier.cpp.s
 
+buggy_examples/bug1.o: buggy_examples/bug1.cpp.o
+
+.PHONY : buggy_examples/bug1.o
+
+# target to build an object file
+buggy_examples/bug1.cpp.o:
+	$(MAKE) -f CMakeFiles/bug1.dir/build.make CMakeFiles/bug1.dir/buggy_examples/bug1.cpp.o
+.PHONY : buggy_examples/bug1.cpp.o
+
+buggy_examples/bug1.i: buggy_examples/bug1.cpp.i
+
+.PHONY : buggy_examples/bug1.i
+
+# target to preprocess a source file
+buggy_examples/bug1.cpp.i:
+	$(MAKE) -f CMakeFiles/bug1.dir/build.make CMakeFiles/bug1.dir/buggy_examples/bug1.cpp.i
+.PHONY : buggy_examples/bug1.cpp.i
+
+buggy_examples/bug1.s: buggy_examples/bug1.cpp.s
+
+.PHONY : buggy_examples/bug1.s
+
+# target to generate assembly for a file
+buggy_examples/bug1.cpp.s:
+	$(MAKE) -f CMakeFiles/bug1.dir/build.make CMakeFiles/bug1.dir/buggy_examples/bug1.cpp.s
+.PHONY : buggy_examples/bug1.cpp.s
+
+buggy_examples/bug2.o: buggy_examples/bug2.cpp.o
+
+.PHONY : buggy_examples/bug2.o
+
+# target to build an object file
+buggy_examples/bug2.cpp.o:
+	$(MAKE) -f CMakeFiles/bug2.dir/build.make CMakeFiles/bug2.dir/buggy_examples/bug2.cpp.o
+.PHONY : buggy_examples/bug2.cpp.o
+
+buggy_examples/bug2.i: buggy_examples/bug2.cpp.i
+
+.PHONY : buggy_examples/bug2.i
+
+# target to preprocess a source file
+buggy_examples/bug2.cpp.i:
+	$(MAKE) -f CMakeFiles/bug2.dir/build.make CMakeFiles/bug2.dir/buggy_examples/bug2.cpp.i
+.PHONY : buggy_examples/bug2.cpp.i
+
+buggy_examples/bug2.s: buggy_examples/bug2.cpp.s
+
+.PHONY : buggy_examples/bug2.s
+
+# target to generate assembly for a file
+buggy_examples/bug2.cpp.s:
+	$(MAKE) -f CMakeFiles/bug2.dir/build.make CMakeFiles/bug2.dir/buggy_examples/bug2.cpp.s
+.PHONY : buggy_examples/bug2.cpp.s
+
+buggy_examples/bug3.o: buggy_examples/bug3.cpp.o
+
+.PHONY : buggy_examples/bug3.o
+
+# target to build an object file
+buggy_examples/bug3.cpp.o:
+	$(MAKE) -f CMakeFiles/bug3.dir/build.make CMakeFiles/bug3.dir/buggy_examples/bug3.cpp.o
+.PHONY : buggy_examples/bug3.cpp.o
+
+buggy_examples/bug3.i: buggy_examples/bug3.cpp.i
+
+.PHONY : buggy_examples/bug3.i
+
+# target to preprocess a source file
+buggy_examples/bug3.cpp.i:
+	$(MAKE) -f CMakeFiles/bug3.dir/build.make CMakeFiles/bug3.dir/buggy_examples/bug3.cpp.i
+.PHONY : buggy_examples/bug3.cpp.i
+
+buggy_examples/bug3.s: buggy_examples/bug3.cpp.s
+
+.PHONY : buggy_examples/bug3.s
+
+# target to generate assembly for a file
+buggy_examples/bug3.cpp.s:
+	$(MAKE) -f CMakeFiles/bug3.dir/build.make CMakeFiles/bug3.dir/buggy_examples/bug3.cpp.s
+.PHONY : buggy_examples/bug3.cpp.s
+
 false_sharing.o: false_sharing.cpp.o
 
 .PHONY : false_sharing.o
@@ -641,33 +748,6 @@ optimization.cpp.s:
 	$(MAKE) -f CMakeFiles/optimization.dir/build.make CMakeFiles/optimization.dir/optimization.cpp.s
 .PHONY : optimization.cpp.s
 
-quick_sort.o: quick_sort.cpp.o
-
-.PHONY : quick_sort.o
-
-# target to build an object file
-quick_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort.cpp.o
-.PHONY : quick_sort.cpp.o
-
-quick_sort.i: quick_sort.cpp.i
-
-.PHONY : quick_sort.i
-
-# target to preprocess a source file
-quick_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort.cpp.i
-.PHONY : quick_sort.cpp.i
-
-quick_sort.s: quick_sort.cpp.s
-
-.PHONY : quick_sort.s
-
-# target to generate assembly for a file
-quick_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/quick_sort.cpp.s
-.PHONY : quick_sort.cpp.s
-
 sections.o: sections.cpp.o
 
 .PHONY : sections.o
@@ -836,9 +916,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... bug3"
+	@echo "... bug1"
 	@echo "... optimization"
-	@echo "... quick_sort"
 	@echo "... false_sharing"
+	@echo "... bug2"
 	@echo "... mandelbrot"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
@@ -865,6 +947,15 @@ help:
 	@echo "... barrier.o"
 	@echo "... barrier.i"
 	@echo "... barrier.s"
+	@echo "... buggy_examples/bug1.o"
+	@echo "... buggy_examples/bug1.i"
+	@echo "... buggy_examples/bug1.s"
+	@echo "... buggy_examples/bug2.o"
+	@echo "... buggy_examples/bug2.i"
+	@echo "... buggy_examples/bug2.s"
+	@echo "... buggy_examples/bug3.o"
+	@echo "... buggy_examples/bug3.i"
+	@echo "... buggy_examples/bug3.s"
 	@echo "... false_sharing.o"
 	@echo "... false_sharing.i"
 	@echo "... false_sharing.s"
@@ -889,9 +980,6 @@ help:
 	@echo "... optimization.o"
 	@echo "... optimization.i"
 	@echo "... optimization.s"
-	@echo "... quick_sort.o"
-	@echo "... quick_sort.i"
-	@echo "... quick_sort.s"
 	@echo "... sections.o"
 	@echo "... sections.i"
 	@echo "... sections.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/bug1.dir/buggy_examples/bug1.cpp.o  -o bug1 
