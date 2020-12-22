@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/shared_future.dir/sem_2/shared_future.cpp.o  -o shared_future 

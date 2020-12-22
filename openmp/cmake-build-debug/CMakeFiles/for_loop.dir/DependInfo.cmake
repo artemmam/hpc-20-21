@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/ARTEM/CLionProjects/openmp/for_loop.cpp" "/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/for_loop.dir/for_loop.cpp.o"
+  "/home/cyberogg/hpc_course/hpc-20-21/openmp/for_loop.cpp" "/home/cyberogg/hpc_course/hpc-20-21/openmp/cmake-build-debug/CMakeFiles/for_loop.dir/for_loop.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

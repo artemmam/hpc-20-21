@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/ARTEM/CLionProjects/openmp/adaptive_quadrature.cpp" "/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/adaptive_quadrature.dir/adaptive_quadrature.cpp.o"
+  "/home/cyberogg/hpc_course/hpc-20-21/openmp/adaptive_quadrature.cpp" "/home/cyberogg/hpc_course/hpc-20-21/openmp/cmake-build-debug/CMakeFiles/adaptive_quadrature.dir/adaptive_quadrature.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

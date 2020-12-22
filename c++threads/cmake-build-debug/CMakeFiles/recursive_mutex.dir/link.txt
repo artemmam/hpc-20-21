@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/recursive_mutex.dir/recursive_mutex.cpp.o  -o recursive_mutex 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <omp.h>
-int main()
-{
+
+int main() {
     int np = omp_get_num_procs();
     int nt = omp_get_num_threads();
     printf("Total number of processors is %d\n", np);

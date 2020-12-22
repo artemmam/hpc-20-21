@@ -2,8 +2,7 @@
 #include <omp.h>
 
 
-int main()
-{
+int main() {
 #pragma omp parallel sections
     {
 #pragma omp section

@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/consume.dir/sem_2/consume.cpp.o  -o consume 

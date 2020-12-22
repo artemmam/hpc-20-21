@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/async.dir/sem_2/async.cpp.o  -o async 

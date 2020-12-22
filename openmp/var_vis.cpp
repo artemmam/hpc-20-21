@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <omp.h>
-int main()
-{
+
+int main() {
     int a = 1;
     printf("'a' before parallel section =  %d\n",
            a);
@@ -14,4 +14,4 @@ int main()
     }
     printf("'a' after parallel section =  %d\n",
            a);
-    }
+}

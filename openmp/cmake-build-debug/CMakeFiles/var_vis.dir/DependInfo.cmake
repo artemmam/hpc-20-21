@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/ARTEM/CLionProjects/openmp/var_vis.cpp" "/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/var_vis.dir/var_vis.cpp.o"
+  "/home/cyberogg/hpc_course/hpc-20-21/openmp/var_vis.cpp" "/home/cyberogg/hpc_course/hpc-20-21/openmp/cmake-build-debug/CMakeFiles/var_vis.dir/var_vis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

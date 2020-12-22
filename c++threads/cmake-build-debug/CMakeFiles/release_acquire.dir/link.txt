@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/release_acquire.dir/sem_2/release_acquire.cpp.o  -o release_acquire 

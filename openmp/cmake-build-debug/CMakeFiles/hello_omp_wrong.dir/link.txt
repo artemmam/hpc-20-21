@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/hello_omp_wrong.dir/hello_wrong.cpp.o  -o hello_omp_wrong 

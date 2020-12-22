@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/atomic_bool.dir/sem_2/atomic_bool.cpp.o  -o atomic_bool 

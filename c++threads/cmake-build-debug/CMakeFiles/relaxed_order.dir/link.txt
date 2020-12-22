@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/relaxed_order.dir/sem_2/relaxed_order.cpp.o  -o relaxed_order 

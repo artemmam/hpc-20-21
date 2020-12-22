@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/var_vis.dir/var_vis.cpp.o"
-  "var_vis.pdb"
   "var_vis"
+  "var_vis.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++17 -fopenmp -g   CMakeFiles/reduction.dir/reduction.cpp.o  -o reduction 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mandelbrot.dir/mandelbrot.cpp.o"
-  "mandelbrot.pdb"
   "mandelbrot"
+  "mandelbrot.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

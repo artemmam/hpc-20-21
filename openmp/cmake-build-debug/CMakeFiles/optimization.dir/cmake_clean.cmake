@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/optimization.dir/optimization.cpp.o"
-  "optimization.pdb"
   "optimization"
+  "optimization.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

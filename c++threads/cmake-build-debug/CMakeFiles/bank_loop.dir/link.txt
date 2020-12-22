@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/bank_loop.dir/bank_example/bank_loop.cpp.o  -o bank_loop 

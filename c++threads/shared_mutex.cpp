@@ -8,14 +8,14 @@ std::mutex mutex;
 std::shared_mutex sh_mutex;
 
 // Reads the value and sets v to that value
-void readValue(int& v) {
+void readValue(int &v) {
     //mutex.lock();
     sh_mutex.lock_shared();
     // Simulate some latency
     std::this_thread::sleep_for(std::chrono::seconds(1));
     std::cout << "Read" << "\n";
     v = value;
-   sh_mutex.unlock_shared();
+    sh_mutex.unlock_shared();
     // mutex.unlock();
 }
 

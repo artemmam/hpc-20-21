@@ -8,15 +8,15 @@
 
 using namespace std;
 
-int main(){
+int main() {
     std::fstream newfile;
     std::ifstream fs("harry.txt");
-    std::vector<std::string> lines;
+    std::vector <std::string> lines;
     for (std::string line; std::getline(fs, line);) {
         lines.push_back(line);
     }
 
-    std::cout<<lines.size()<<"\n";
+    std::cout << lines.size() << "\n";
     string needle = "harry";
     int count = 0;
     for (std::string str : lines) {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <omp.h>
-int main()
-{
+
+int main() {
     omp_lock_t lock;
     omp_init_lock(&lock);
     int a = 0;

@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/bank_recursive.dir/bank_example/bank_recursive.cpp.o  -o bank_recursive 

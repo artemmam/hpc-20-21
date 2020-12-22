@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nowait.dir/nowait.cpp.o"
-  "nowait.pdb"
   "nowait"
+  "nowait.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

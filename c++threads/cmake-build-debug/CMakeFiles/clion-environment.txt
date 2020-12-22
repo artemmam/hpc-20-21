@@ -1,4 +1,3 @@
-ToolSet: Ubuntu 18.04.5 LTS (local)@C:\Users\ARTEM\AppData\Local\Microsoft\WindowsApps\ubuntu.exe
-Options: 
+ToolSet: 1.0 (local)Options: 
 
 Options:

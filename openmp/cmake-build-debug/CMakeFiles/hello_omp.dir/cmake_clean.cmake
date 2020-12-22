@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hello_omp.dir/hello.cpp.o"
-  "hello_omp.pdb"
   "hello_omp"
+  "hello_omp.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

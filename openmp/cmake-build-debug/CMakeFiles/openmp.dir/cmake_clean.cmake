@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/openmp.dir/main.cpp.o"
-  "openmp.pdb"
   "openmp"
+  "openmp.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

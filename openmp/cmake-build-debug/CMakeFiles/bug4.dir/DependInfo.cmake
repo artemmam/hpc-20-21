@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/ARTEM/CLionProjects/openmp/buggy_examples/bug4.cpp" "/mnt/c/Users/ARTEM/CLionProjects/openmp/cmake-build-debug/CMakeFiles/bug4.dir/buggy_examples/bug4.cpp.o"
+  "/home/cyberogg/hpc_course/hpc-20-21/openmp/buggy_examples/bug4.cpp" "/home/cyberogg/hpc_course/hpc-20-21/openmp/cmake-build-debug/CMakeFiles/bug4.dir/buggy_examples/bug4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

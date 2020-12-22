@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/barrier.dir/barrier.cpp.o"
-  "barrier.pdb"
   "barrier"
+  "barrier.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

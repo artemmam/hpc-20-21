@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <omp.h>
-int main()
-{
+
+int main() {
     int a = 1;
     int i;
     printf("'a' before parallel section =  %d\n",

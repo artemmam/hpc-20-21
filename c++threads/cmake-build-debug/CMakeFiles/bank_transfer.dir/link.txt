@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -pthread -g   CMakeFiles/bank_transfer.dir/bank_example/bank_transfer.cpp.o  -o bank_transfer 

@@ -4,32 +4,26 @@
 #include <unistd.h>
 
 
-
-void ref_func(int &i)
-{
+void ref_func(int &i) {
     std::cout << "";
-    std::cout << "thread function with std::ref message is = " << i<< std::endl;
-    i+=10;
+    std::cout << "thread function with std::ref message is = " << i << std::endl;
+    i += 10;
 }
 
-void func(int i)
-{
+void func(int i) {
     std::cout << "";
-    std::cout << "thread function message is = " << i<< std::endl;
-    i+=10;
+    std::cout << "thread function message is = " << i << std::endl;
+    i += 10;
 }
 
-int sum(int a, int b)
-{
-    return a+b;
+int sum(int a, int b) {
+    return a + b;
 }
 
-int main()
-{
+int main() {
     int i = 10;
     int result = 0;
-    auto f = [&result]()
-            {result = sum(1, 2);};
+    auto f = [&result]() { result = sum(1, 2); };
 
     std::thread t1(func, i);
     sleep(1);

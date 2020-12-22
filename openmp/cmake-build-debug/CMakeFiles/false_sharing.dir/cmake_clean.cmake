@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/false_sharing.dir/false_sharing.cpp.o"
-  "false_sharing.pdb"
   "false_sharing"
+  "false_sharing.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

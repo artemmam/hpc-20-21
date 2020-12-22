@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/integ.dir/integ.cpp.o"
-  "integ.pdb"
   "integ"
+  "integ.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

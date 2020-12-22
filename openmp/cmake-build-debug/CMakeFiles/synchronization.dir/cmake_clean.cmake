@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/synchronization.dir/synchronization.cpp.o"
-  "synchronization.pdb"
   "synchronization"
+  "synchronization.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -5,21 +5,21 @@
 #include <algorithm>
 #include <iostream>
 
-double f(double x1, double x2){
+double f(double x1, double x2) {
     return pow((x1 - 1), 2) + pow((x2 - 2.5), 2);
 }
-int main()
-{
+
+int main() {
     omp_set_num_threads(8);
-std::vector<double> X1, X2;
-int N = 10000;
-double a = 0;
-double b = 10;
+    std::vector<double> X1, X2;
+    int N = 10000;
+    double a = 0;
+    double b = 10;
     for (int i = 0; i < N; i++) {
-        X1.push_back(a + i*((b - a)/(N)));
-        X2.push_back(a + i*((b - a)/(N)));
+        X1.push_back(a + i * ((b - a) / (N)));
+        X2.push_back(a + i * ((b - a) / (N)));
     }
-    double global_min = 100, x1_min, x2_min  = 0;
+    double global_min = 100, x1_min, x2_min = 0;
     double start = omp_get_wtime();
 #pragma omp parallel
     {
